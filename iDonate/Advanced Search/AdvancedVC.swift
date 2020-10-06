@@ -23,7 +23,6 @@ class AdvancedVC: BaseViewController,UITableViewDataSource,UITableViewDelegate {
     var advancedResponse :  AdvancedModel?
     
     var typesArray : [Types]?
-    var familyDataSet : FamilyModel!
     
     var selectionFlag :Bool = false
 
@@ -246,7 +245,7 @@ class AdvancedVC: BaseViewController,UITableViewDataSource,UITableViewDelegate {
             vc?.address = address
             vc?.latitude = latitude
             vc?.longitude = longitude
-            vc?.comingFromType = comingFromType
+            vc?.comingFromType = true
             self.navigationController?.pushViewController(vc!, animated: true)
         }
         else{

@@ -78,7 +78,9 @@ class GooglePlaceSearchViewController: BaseViewController, UISearchBarDelegate {
     }
     
     @objc func textFieldDidChange(textField: UITextField) {
-        fetcher?.sourceTextHasChanged(textField.text!)
+        if textField.text?.count ?? 0 >= 3 {
+            fetcher?.sourceTextHasChanged(textField.text!)
+        }
     }
     
     @objc func backAction(_sender:UIButton)  {

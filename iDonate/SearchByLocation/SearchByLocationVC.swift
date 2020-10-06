@@ -342,8 +342,42 @@ class SearchByLocationVC: BaseViewController,UITableViewDelegate,UITableViewData
     }
     
     @objc func backAction(_sender:UIButton)  {
-        self.tabBarController?.selectedIndex = 0
-        self.navigationController?.popViewController(animated: true)
+        
+        if longitute != "", lattitude != "", locationSearch != "Nonprofits"{
+            
+            longitute = ""
+            lattitude = ""
+            locationSearch = "Nonprofits"
+            userID = ""
+            selectedIndex = -1
+            categoryCode = nil
+            subCategoryCode = nil
+            childCategory = nil
+            deductible = ""
+            self.charityWebSerice()
+        } else if searchName != ""{
+            self.searchBar.text = ""
+            self.searchScrollBar.text = ""
+            searchName = ""
+            
+            locationSearch = "Nonprofits"
+            if country == "US"{
+                searchBar.placeholder = "Search by city/state"
+                searchScrollBar.placeholder = "Search by city/state"
+            } else {
+                searchBar.placeholder = "Search by country"
+                searchScrollBar.placeholder = "Search by country"
+            }
+            nameScrollbtn.isSelected = false
+            nameFlg = false
+            locationNameText.text = locationSearch + " & charities near you"
+            self.charityWebSerice()
+        }
+        else {
+            self.tabBarController?.selectedIndex = 0
+            self.navigationController?.popViewController(animated: true)
+        }
+        
     }
     
     @IBAction func locationAction(_ sender:UIButton) {

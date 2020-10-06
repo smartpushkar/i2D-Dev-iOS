@@ -1039,9 +1039,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iDonate/iDonate.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development: Indumathi Subramaniam (K356GKQG8R)";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = A3C8934K5J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1056,7 +1056,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.i2-donate.i2-donate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Development Certificate 2008-08-26";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iDonate/iDonate-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -1073,7 +1073,7 @@
 				CODE_SIGN_ENTITLEMENTS = iDonate/iDonate.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution: i-Apps LLC (A3C8934K5J)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = A3C8934K5J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1088,7 +1088,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.i2-donate.i2-donate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "i2-Donate-Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "i2-Donate-Distribution - Oct 05";
 				SWIFT_OBJC_BRIDGING_HEADER = "iDonate/iDonate-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

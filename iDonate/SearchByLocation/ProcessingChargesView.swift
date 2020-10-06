@@ -52,7 +52,7 @@ class ProcessingChargesView: UIView {
     var processingFeeTitle: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Procession Fee (1%)"
+        label.text = "Processing Fee"
         label.textColor = fontBlackColor
         return label
     }()

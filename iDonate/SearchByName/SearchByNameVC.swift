@@ -321,7 +321,29 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
     
     @objc func backAction(_sender:UIButton)  {
         
-        self.navigationController?.popViewController(animated: true)
+        if longitute != "", lattitude != "", locationSearch != "Nonprofits"{
+            longitute = ""
+            lattitude = ""
+            locationSearch = "Nonprofits"
+            userID = ""
+            selectedIndex = -1
+            self.charityWebSerice()
+        } else if searchedName != ""{
+            self.searchBar.text = ""
+            self.searchScrollBar.text = ""
+            searchedName = ""
+            locationSearch = "Nonprofits"
+            searchBar.placeholder = "Enter nonprofit / charity name"
+            searchScrollBar.placeholder = "Enter nonprofit / charity name"
+            nameScrollbtn.isSelected = false
+            nameFlg = false
+            self.charityWebSerice()
+        }
+        else {
+            self.tabBarController?.selectedIndex = 0
+            self.navigationController?.popViewController(animated: true)
+        }
+        
     }
     
     @objc func cancelView(recognizer: UITapGestureRecognizer) {
@@ -347,7 +369,7 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
         vc?.latitude = lattitude
         vc?.longitude = longitute
         vc?.countryCode = ""
-        vc?.comingFromType = false
+        vc?.comingFromType = comingFromType
         self.navigationController?.pushViewController(vc!, animated: true)
     }
     
@@ -365,8 +387,8 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
             nameFlg = true
 
         } else {
-            searchBar.placeholder = "Search by country"
-            searchScrollBar.placeholder = "Search by country"
+            searchBar.placeholder = "Enter City/State"
+            searchScrollBar.placeholder = "Enter City/State"
             sender.isSelected = true
             nameScrollbtn.isSelected = true
             namebtn.isSelected = true
@@ -880,10 +902,16 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
             searchedName = ""
             self.searchBar.text = ""
             self.searchScrollBar.text = ""
-            searchBar.placeholder = "Search by country"
-            searchScrollBar.placeholder = "Search by country"
+            searchBar.placeholder = "Enter City/Sate"
+            searchScrollBar.placeholder = "Enter City/Sate"
             let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "GooglePlaceSearchViewController") as? GooglePlaceSearchViewController
-            vc?.boundaryForPlaces = "INT"
+            
+            if comingFromType == false{
+                vc?.boundaryForPlaces = "INT"
+            } else {
+                vc?.boundaryForPlaces = "US"
+            }
+            
             vc?.placesDelegate = self
             self.navigationController?.pushViewController(vc!, animated: true)
         } else{
@@ -893,8 +921,8 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
     
     func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
         if(nameFlg == false){
-            searchBar.placeholder = "Search by country"
-            searchScrollBar.placeholder = "Search by country"
+            searchBar.placeholder = "Enter City/Sate"
+            searchScrollBar.placeholder = "Enter City/Sate"
             nameScrollbtn.isSelected = false
             nameFlg = false
         } else{

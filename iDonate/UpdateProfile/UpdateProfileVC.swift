@@ -469,13 +469,13 @@ class UpdateProfileVC: BaseViewController,UIImagePickerControllerDelegate,UINavi
             UserDefaults.standard.set(encodedData, forKey: "people")
             UserDefaults.standard.synchronize()
             
-            if comingFromTypes == false{
-                let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "TapViewController") as? HomeTabViewController
-                self.navigationController?.pushViewController(vc!, animated: true)
-            } else {
-                let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "AdvancedVC") as? AdvancedVC
-                self.navigationController?.popToViewController(vc!, animated: true)
-            }
+//            if comingFromTypes == false{
+//                let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "TapViewController") as? HomeTabViewController
+//                self.navigationController?.pushViewController(vc!, animated: true)
+//            } else {
+//                let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "AdvancedVC") as? AdvancedVC
+//                self.navigationController?.popToViewController(vc!, animated: true)
+//            }
             
         }
         else
