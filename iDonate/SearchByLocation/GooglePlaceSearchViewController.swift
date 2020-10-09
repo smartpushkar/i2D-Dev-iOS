@@ -64,7 +64,7 @@ class GooglePlaceSearchViewController: BaseViewController, UISearchBarDelegate {
         textField?.autoresizingMask = .flexibleWidth
         textField?.addTarget(self, action: #selector(textFieldDidChange(textField:)),
                              for: .editingChanged)
-        let placeholder = boundaryForPlaces == "US" ? NSAttributedString(string: " Search by City/State...") : NSAttributedString(string: " Search by Country")
+        let placeholder = boundaryForPlaces == "US" ? NSAttributedString(string: " Search by City/State") : NSAttributedString(string: " Search by Country")
         
         textField?.attributedPlaceholder = placeholder
         textField.backgroundColor = hexStringToUIColor(hex: "9C7192").withAlphaComponent(0.3)

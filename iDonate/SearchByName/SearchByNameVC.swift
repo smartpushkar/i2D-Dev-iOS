@@ -176,7 +176,9 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
         } else {
             self.titlelbl.text = "SEARCH BY TYPE"
         }
-            
+        
+        self.hideKeyboardWhenTappedAround()
+        
         // Do any additional setup after loading the view.
         
     }
@@ -343,7 +345,7 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
             self.tabBarController?.selectedIndex = 0
             self.navigationController?.popViewController(animated: true)
         }
-        
+                
     }
     
     @objc func cancelView(recognizer: UITapGestureRecognizer) {
@@ -412,8 +414,8 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
             nameFlg = true
         }
         else {
-            searchBar.placeholder = "Search by country"
-            searchScrollBar.placeholder = "Search by country"
+            searchBar.placeholder = "Search by city/state"
+            searchScrollBar.placeholder = "Search by city/state"
             sender.isSelected = true
             namebtn.isSelected = true
             nameFlg = false
@@ -905,13 +907,7 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
             searchBar.placeholder = "Enter City/Sate"
             searchScrollBar.placeholder = "Enter City/Sate"
             let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "GooglePlaceSearchViewController") as? GooglePlaceSearchViewController
-            
-            if comingFromType == false{
-                vc?.boundaryForPlaces = "INT"
-            } else {
-                vc?.boundaryForPlaces = "US"
-            }
-            
+            vc?.boundaryForPlaces = "US"
             vc?.placesDelegate = self
             self.navigationController?.pushViewController(vc!, animated: true)
         } else{
@@ -962,6 +958,9 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
             searchedName = ""
         }
     }
+    
+    
+    
     
     // MARK:Webservicemethod
     
@@ -1071,7 +1070,6 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
     
     func responsemethod() {
         self.searchTableView .reloadData()
-        self.view.endEditing(true)
         if(charityResponse?.status == 1) {
             self.noresultsview.isHidden = true
         } else {

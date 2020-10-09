@@ -2195,7 +2195,7 @@ U0VORAM
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <searchBar contentMode="redraw" ambiguous="YES" searchBarStyle="minimal" placeholder="Search by city/state" translatesAutoresizingMaskIntoConstraints="NO" id="qrU-cI-cvB">
-                                        <rect key="frame" x="1" y="24" width="374" height="56"/>
+                                        <rect key="frame" x="0.0" y="24" width="375" height="56"/>
                                         <color key="backgroundColor" red="0.85771054029464722" green="0.68602776527404785" blue="0.81837350130081177" alpha="0.2846679688" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="0.85771054029464722" green="0.68602776527404785" blue="0.81837350130081177" alpha="0.2846679688" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="barTintColor" red="0.95618824300000005" green="0.9535043138" blue="0.91254791719999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -2208,8 +2208,17 @@ U0VORAM
                                             <outlet property="delegate" destination="oVd-Lp-r0c" id="gLW-3a-dEe"/>
                                         </connections>
                                     </searchBar>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type atleast 3 letters to search." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57B-Lm-Qo3">
+                                        <rect key="frame" x="11" y="70" width="204" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="17" id="1Nt-Ke-FHf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dPd-rd-g1O">
-                                        <rect key="frame" x="10" y="80" width="355" height="38"/>
+                                        <rect key="frame" x="10" y="89" width="355" height="38"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9NE-0M-Lvy">
                                                 <rect key="frame" x="10" y="10" width="50.5" height="17"/>
@@ -2294,7 +2303,7 @@ U0VORAM
                                         </constraints>
                                     </view>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x9Q-Gs-xjG">
-                                        <rect key="frame" x="10" y="80" width="355" height="50"/>
+                                        <rect key="frame" x="10" y="89" width="355" height="50"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1W0-CN-hfl">
                                                 <rect key="frame" x="10" y="11" width="50.5" height="17"/>
@@ -2394,15 +2403,17 @@ U0VORAM
                                     <constraint firstAttribute="height" constant="175" id="Edg-Cx-ebm"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GZ8-jE-Jpy" secondAttribute="trailing" constant="20" symbolic="YES" id="HyX-Yh-EW6"/>
                                     <constraint firstAttribute="trailing" secondItem="dPd-rd-g1O" secondAttribute="trailing" constant="10" id="RHB-gM-4FY"/>
-                                    <constraint firstItem="ylN-bU-DVg" firstAttribute="top" secondItem="x9Q-Gs-xjG" secondAttribute="bottom" constant="17" id="RNs-u9-TMO"/>
+                                    <constraint firstItem="ylN-bU-DVg" firstAttribute="top" secondItem="x9Q-Gs-xjG" secondAttribute="bottom" constant="8" id="RNs-u9-TMO"/>
+                                    <constraint firstItem="57B-Lm-Qo3" firstAttribute="top" secondItem="qrU-cI-cvB" secondAttribute="bottom" constant="-10" id="SRj-ce-9O6"/>
                                     <constraint firstAttribute="trailing" secondItem="x9Q-Gs-xjG" secondAttribute="trailing" constant="10" id="VLn-pu-FOs"/>
                                     <constraint firstItem="dPd-rd-g1O" firstAttribute="leading" secondItem="is0-pP-WeO" secondAttribute="leading" constant="10" id="d0c-KQ-WbP"/>
                                     <constraint firstItem="qrU-cI-cvB" firstAttribute="leading" secondItem="is0-pP-WeO" secondAttribute="leading" id="gNL-0h-MEm"/>
-                                    <constraint firstItem="x9Q-Gs-xjG" firstAttribute="top" secondItem="qrU-cI-cvB" secondAttribute="bottom" id="hC2-gN-HTV"/>
+                                    <constraint firstItem="x9Q-Gs-xjG" firstAttribute="top" secondItem="qrU-cI-cvB" secondAttribute="bottom" constant="9" id="hC2-gN-HTV"/>
                                     <constraint firstAttribute="trailing" secondItem="qrU-cI-cvB" secondAttribute="trailing" id="kRO-pe-iWf"/>
+                                    <constraint firstItem="57B-Lm-Qo3" firstAttribute="leading" secondItem="is0-pP-WeO" secondAttribute="leading" constant="11" id="m4X-TX-3LX"/>
                                     <constraint firstItem="ylN-bU-DVg" firstAttribute="leading" secondItem="is0-pP-WeO" secondAttribute="leading" constant="20" id="sYr-qF-QeO"/>
                                     <constraint firstItem="GZ8-jE-Jpy" firstAttribute="top" secondItem="is0-pP-WeO" secondAttribute="top" id="uR0-Tg-HZd"/>
-                                    <constraint firstItem="dPd-rd-g1O" firstAttribute="top" secondItem="qrU-cI-cvB" secondAttribute="bottom" id="zzq-Gh-t6I"/>
+                                    <constraint firstItem="dPd-rd-g1O" firstAttribute="top" secondItem="qrU-cI-cvB" secondAttribute="bottom" constant="9" id="zzq-Gh-t6I"/>
                                 </constraints>
                             </view>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ytg-ts-yyd">
@@ -4465,6 +4476,15 @@ U0VORAM
                                             <outlet property="delegate" destination="PfD-yt-Cio" id="l8e-lR-LKW"/>
                                         </connections>
                                     </searchBar>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Type atleast 3 letters to search." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vu3-Dw-Ohx">
+                                        <rect key="frame" x="4" y="75" width="353" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="17" id="Iak-o4-VNe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H9K-rs-a0f">
                                         <rect key="frame" x="0.0" y="95" width="355" height="40"/>
                                         <subviews>
@@ -4665,7 +4685,10 @@ U0VORAM
                                     <constraint firstItem="Yki-kC-v92" firstAttribute="top" secondItem="GrC-Rd-B2F" secondAttribute="top" constant="5" id="Q4H-Tl-6JI"/>
                                     <constraint firstAttribute="trailing" secondItem="19Y-WM-05e" secondAttribute="trailing" constant="10" id="QHW-jv-Zn9"/>
                                     <constraint firstItem="19Y-WM-05e" firstAttribute="top" secondItem="V0T-4c-WlD" secondAttribute="bottom" id="X59-Cz-MV0"/>
+                                    <constraint firstItem="Vu3-Dw-Ohx" firstAttribute="leading" secondItem="GrC-Rd-B2F" secondAttribute="leading" constant="4" id="XVY-GR-Kek"/>
                                     <constraint firstItem="H9K-rs-a0f" firstAttribute="leading" secondItem="GrC-Rd-B2F" secondAttribute="leading" id="YkY-HH-ICx"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vu3-Dw-Ohx" secondAttribute="trailing" constant="4" id="ZSa-Q0-eHY"/>
+                                    <constraint firstItem="Vu3-Dw-Ohx" firstAttribute="top" secondItem="QW4-kL-Lt9" secondAttribute="bottom" constant="-10" id="cM9-Um-sBI"/>
                                     <constraint firstAttribute="trailing" secondItem="V0T-4c-WlD" secondAttribute="trailing" constant="8" id="iCj-8O-ibh"/>
                                     <constraint firstItem="V0T-4c-WlD" firstAttribute="top" secondItem="QW4-kL-Lt9" secondAttribute="bottom" constant="10" id="keb-vi-GzY"/>
                                     <constraint firstItem="19Y-WM-05e" firstAttribute="leading" secondItem="GrC-Rd-B2F" secondAttribute="leading" constant="20" id="ptY-HC-HSb"/>

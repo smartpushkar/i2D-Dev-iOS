@@ -370,7 +370,6 @@ class SearchByLocationVC: BaseViewController,UITableViewDelegate,UITableViewData
             }
             nameScrollbtn.isSelected = false
             nameFlg = false
-            locationNameText.text = locationSearch + " & charities near you"
             self.charityWebSerice()
         }
         else {
@@ -378,6 +377,8 @@ class SearchByLocationVC: BaseViewController,UITableViewDelegate,UITableViewData
             self.navigationController?.popViewController(animated: true)
         }
         
+        locationNameText.text = locationSearch + " & charities near you"
+
     }
     
     @IBAction func locationAction(_ sender:UIButton) {
