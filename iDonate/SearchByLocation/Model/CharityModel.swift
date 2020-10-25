@@ -9,7 +9,7 @@
 import UIKit
 
 struct CharityModel: Codable {
-    var data: [charityListArray]?
+    var data: [charityListArray] = [charityListArray]()
     var status: Int?
     var message: String?
 }

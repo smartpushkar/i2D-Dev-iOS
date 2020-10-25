@@ -53,7 +53,21 @@ class AnnualRevenueViewController: BaseViewController {
     
     @objc func backAction(_sender:UIButton)  {
         
-        self.navigationController?.popViewController(animated: true)
+        if incomeFrom.count == 0{
+            let alert = UIAlertController(title: "", message: "Returning to previous screen without making any changes?", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in
+                self.navigationController?.popViewController(animated: true)
+            }))
+            alert.addAction(UIAlertAction(title: "No", style: .default, handler: { action in
+                
+            }))
+            
+            self.present(alert, animated: true, completion: nil)
+        } else {
+            self.navigationController?.popViewController(animated: true)
+        }
+        
+
     }
     
 

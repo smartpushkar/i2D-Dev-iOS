@@ -450,6 +450,7 @@ class MySpaceDetails: BaseViewController ,UITableViewDelegate,UITableViewDataSou
                                                                 "charity_name": charityName,
                                                                 "transaction_id":result.paymentMethod?.nonce ?? "",
                                                                 "amount":totalAmount.dollarString,
+                                                                "payment_type": result.paymentMethod?.type ?? "",
                                                                 "status":"approved"]
                                     
                                     let paymentUrl = String(format: URLHelper.iDonatePayment)

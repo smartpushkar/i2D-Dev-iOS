@@ -14,7 +14,7 @@ enum URLName : String {
     case kAppShare = "AppShare"
     case kAuthToken = "AuthToken"
     case MDServerURL = "Base-url"
-    // case MDServerURL = "live-url"
+//    case MDServerURL = "Live-url" //Prod
     case iDonateRegister = "Register"
     case iDonateLogin = "Login"
     case iDonateCOuntryLIst = "CountryList"
@@ -31,6 +31,8 @@ enum URLName : String {
     case iDonateVerifyOtp = "VerifyOtp"
     case iDonateUpdatePassword = "UpdatePassword"
     case iDonateNotification = "Notification"
+    case iDonateTransactionList = "TransactionList"
+
 }
 
 final fileprivate class URLFetcher : NSObject {
@@ -113,6 +115,9 @@ final class URLHelper : NSObject {
     }()
     static var iDonateNotification : String = {
         return URLFetcher.sharedFetcher.urlDictionary[URLName.MDServerURL.rawValue]! +  URLFetcher.sharedFetcher.urlDictionary[URLName.iDonateNotification.rawValue]!
+    }()
+    static var iDonateTransactionList : String = {
+        return URLFetcher.sharedFetcher.urlDictionary[URLName.MDServerURL.rawValue]! +  URLFetcher.sharedFetcher.urlDictionary[URLName.iDonateTransactionList.rawValue]!
     }()
 }
 

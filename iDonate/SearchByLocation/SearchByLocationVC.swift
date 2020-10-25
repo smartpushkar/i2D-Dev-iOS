@@ -198,6 +198,9 @@ class SearchByLocationVC: BaseViewController,UITableViewDelegate,UITableViewData
         UserDefaults.standard .set("", forKey: "latitude")
         UserDefaults.standard .set("", forKey: "longitude")
         UserDefaults.standard .set("Nonprofits", forKey: "locationname")
+        lattitude  = ""
+        longitute = ""
+        locationSearch = ""
         previousPageCount = pageCount
     }
     
@@ -673,6 +676,8 @@ class SearchByLocationVC: BaseViewController,UITableViewDelegate,UITableViewData
                     let dropIn = BTDropInController(authorization: "\(value)", request: drop)
                     { (controller, result, error) in
                         
+                        print("result",result)
+                        
                         if (error != nil) {
                             print("ERROR")
                         } else if (result?.isCancelled == true) {
@@ -692,6 +697,7 @@ class SearchByLocationVC: BaseViewController,UITableViewDelegate,UITableViewData
                                                             "charity_name": self.selectedCharity?.name ?? "",
                                                             "transaction_id":result.paymentMethod?.nonce ?? "",
                                                             "amount":totalAmount.dollarString,
+                                                            "payment_type": result.paymentMethod?.type ?? "",
                                                             "status":"approved"]
                                 
                                 let paymentUrl = String(format: URLHelper.iDonatePayment)
@@ -1035,19 +1041,9 @@ class SearchByLocationVC: BaseViewController,UITableViewDelegate,UITableViewData
             searchName = ""
         }
         
-//        filterdCharityListArray = charityListArray!.filter({( charity : charityListArray) -> Bool in
-//            return charity.name!.lowercased().contains(searchText.lowercased())
-//        })
-//
-//        if(filterdCharityListArray!.count == 0){
-//            isFiltering = false
-//        } else {
-//            isFiltering = true
-//        }
-//
-//        searchTableView.reloadData()
-//        searchBar.text = searchText
-//        searchScrollBar.text = searchText
+        if searchText.count == 0{
+            self.charityWebSerice()
+        }
     }
     
     
@@ -1140,10 +1136,10 @@ class SearchByLocationVC: BaseViewController,UITableViewDelegate,UITableViewData
             } else {
                 if self.charityResponse == nil || self.pageCount == 1 {
                     self.charityResponse = response
-                    self.charityListArray =  response.data!.sorted{ $0.name?.localizedCaseInsensitiveCompare($1.name!) == ComparisonResult.orderedAscending}
+                    self.charityListArray =  response.data.sorted{ $0.name?.localizedCaseInsensitiveCompare($1.name!) == ComparisonResult.orderedAscending}
                 } else {
-                    self.charityResponse?.data?.append(contentsOf: response.data!)
-                    self.charityListArray?.append(contentsOf: response.data!)
+                    self.charityResponse?.data.append(contentsOf: response.data)
+                    self.charityListArray?.append(contentsOf: response.data)
                 }
             }
         
@@ -1159,8 +1155,6 @@ class SearchByLocationVC: BaseViewController,UITableViewDelegate,UITableViewData
     
     func responsemethod() {
         
-        self.view.endEditing(true)
-
         DispatchQueue.main.async {
             self.searchTableView.reloadData()
         }

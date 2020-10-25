@@ -100,6 +100,8 @@
 		3FFAD64E22EACB6A00D6F197 /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAD64D22EACB6A00D6F197 /* ForgotVC.swift */; };
 		3FFAD65022EACF8F00D6F197 /* VerifyOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAD64F22EACF8F00D6F197 /* VerifyOTP.swift */; };
 		3FFAD65322EB32C000D6F197 /* CardPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAD65222EB32BE00D6F197 /* CardPaymentVC.swift */; };
+		73D6A88425458D6300CAD41C /* MyDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D6A88325458D6300CAD41C /* MyDonationsViewController.swift */; };
+		73D6A8872545925A00CAD41C /* TransactionHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D6A8862545925A00CAD41C /* TransactionHistoryTableViewCell.swift */; };
 		93267744227F08BB00FE65F0 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93267743227F08BB00FE65F0 /* MenuVC.swift */; };
 		932A2DD1227E20F4005BBBDB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932A2DD0227E20F4005BBBDB /* LoginVC.swift */; };
 		932A2DD3227E278E005BBBDB /* iDonateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932A2DD2227E278E005BBBDB /* iDonateClass.swift */; };
@@ -208,6 +210,8 @@
 		3FFAD64D22EACB6A00D6F197 /* ForgotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
 		3FFAD64F22EACF8F00D6F197 /* VerifyOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTP.swift; sourceTree = "<group>"; };
 		3FFAD65222EB32BE00D6F197 /* CardPaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPaymentVC.swift; sourceTree = "<group>"; };
+		73D6A88325458D6300CAD41C /* MyDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDonationsViewController.swift; sourceTree = "<group>"; };
+		73D6A8862545925A00CAD41C /* TransactionHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryTableViewCell.swift; sourceTree = "<group>"; };
 		8115822F6360572B245BD86D /* Pods_iDonate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDonate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93267743227F08BB00FE65F0 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		932A2DD0227E20F4005BBBDB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -301,6 +305,8 @@
 				3FC72DE622706C41004B2FB3 /* BaseViewController.swift */,
 				3F7517C3228D994600C00255 /* HomeTabViewController.swift */,
 				3FADC3BE22CDD6A8004E7395 /* MySpaceDetails.swift */,
+				73D6A88325458D6300CAD41C /* MyDonationsViewController.swift */,
+				73D6A8862545925A00CAD41C /* TransactionHistoryTableViewCell.swift */,
 			);
 			path = HomeTab;
 			sourceTree = "<group>";
@@ -830,6 +836,7 @@
 				3F259D7C22708E6D00924384 /* MySpaceVC.swift in Sources */,
 				3FA080EF22A1096F000B721D /* loginModel.swift in Sources */,
 				3F7517C2228D84D300C00255 /* IntroVC.swift in Sources */,
+				73D6A8872545925A00CAD41C /* TransactionHistoryTableViewCell.swift in Sources */,
 				932A2DD3227E278E005BBBDB /* iDonateClass.swift in Sources */,
 				3FBB96592296A458006291A1 /* MainTableViewCell.swift in Sources */,
 				3FFAD65022EACF8F00D6F197 /* VerifyOTP.swift in Sources */,
@@ -860,6 +867,7 @@
 				3FDB2F0322EC508A006ECB76 /* ResultVC.swift in Sources */,
 				1B7AEA0B2495E3CA0033C92C /* UIViewcontroller+Extensions.swift in Sources */,
 				3F0D7C0E2289957D00345E4B /* SearchTableViewCell.swift in Sources */,
+				73D6A88425458D6300CAD41C /* MyDonationsViewController.swift in Sources */,
 				1B41CA5A249E06EC00839F65 /* Extensions.swift in Sources */,
 				3FC72DE522706C41004B2FB3 /* AppDelegate.swift in Sources */,
 				3F23D5C4229BFCB400068C4D /* UpdateProfileVC.swift in Sources */,
@@ -1041,7 +1049,7 @@
 				CODE_SIGN_ENTITLEMENTS = iDonate/iDonate.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = A3C8934K5J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1073,7 +1081,7 @@
 				CODE_SIGN_ENTITLEMENTS = iDonate/iDonate.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution: i-Apps LLC (A3C8934K5J)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = A3C8934K5J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

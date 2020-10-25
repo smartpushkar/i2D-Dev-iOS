@@ -59,7 +59,7 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
     var isFiltering:Bool = false
     var longitute:String = ""
     var lattitude:String = ""
-    var locationSearch:String = "Nonprofits"
+    var locationSearch:String = ""
     var userID:String = ""
     var selectedIndex:Int = -1
     weak var payDelegate: paymentDelegate?
@@ -187,10 +187,15 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
         if((UserDefaults.standard.value(forKey:"SelectedType")) != nil) {
             UserDefaults.standard.removeObject(forKey: "SelectedType")
         }
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
         self.previousPageCount = self.pageCount
+        
+        UserDefaults.standard .set("", forKey: "latitude")
+        UserDefaults.standard .set("", forKey: "longitude")
+        UserDefaults.standard .set("", forKey: "locationname")
+        
+        lattitude  = ""
+        longitute = ""
+        locationSearch = ""
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -210,6 +215,12 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
         } else{
             typebtn.isSelected = false
         }
+        
+        searchScrollBar.placeholder = "Enter nonprofit/charity name"
+        searchBar.placeholder = "Enter nonprofit/charity name"
+        
+        searchBar.text = locationSearch
+        searchScrollBar.text = locationSearch
         
         self.charityWebSerice()
 
@@ -322,7 +333,7 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
     }
     
     @objc func backAction(_sender:UIButton)  {
-        
+    
         if longitute != "", lattitude != "", locationSearch != "Nonprofits"{
             longitute = ""
             lattitude = ""
@@ -345,6 +356,9 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
             self.tabBarController?.selectedIndex = 0
             self.navigationController?.popViewController(animated: true)
         }
+        
+        searchBar.text = ""
+        searchScrollBar.text = ""
                 
     }
     
@@ -376,26 +390,38 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
     }
     
     @IBAction func nameAction(_ sender:UIButton)  {
+        
+        self.view.endEditing(true)
+        searchBar .resignFirstResponder()
+        searchedName = ""
+        self.searchBar.text = ""
+        self.searchScrollBar.text = ""
+        searchBar.placeholder = "Enter City/Sate"
+        searchScrollBar.placeholder = "Enter City/Sate"
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "GooglePlaceSearchViewController") as? GooglePlaceSearchViewController
+        vc?.boundaryForPlaces = "US"
+        vc?.placesDelegate = self
+        self.navigationController?.pushViewController(vc!, animated: true)
 
-        if(sender.isSelected) {
-            sender.isSelected = false
-            searchBar.placeholder = "Enter nonprofit/charity name"
-            searchScrollBar.placeholder = "Enter nonprofit/charity name"
-            nameScrollbtn.isSelected = false
-            namebtn.isSelected = false
-            typeScrollbtn.isSelected = false
-            typebtn.isSelected = false
-            selectedlbl.text = ""
-            nameFlg = true
-
-        } else {
-            searchBar.placeholder = "Enter City/State"
-            searchScrollBar.placeholder = "Enter City/State"
-            sender.isSelected = true
-            nameScrollbtn.isSelected = true
-            namebtn.isSelected = true
-            nameFlg = false
-        }
+//        if(sender.isSelected) {
+//            sender.isSelected = false
+//            searchBar.placeholder = "Enter nonprofit/charity name"
+//            searchScrollBar.placeholder = "Enter nonprofit/charity name"
+//            nameScrollbtn.isSelected = false
+//            namebtn.isSelected = false
+//            typeScrollbtn.isSelected = false
+//            typebtn.isSelected = false
+//            selectedlbl.text = ""
+//            nameFlg = true
+//
+//        } else {
+//            searchBar.placeholder = "Enter City/State"
+//            searchScrollBar.placeholder = "Enter City/State"
+//            sender.isSelected = true
+//            nameScrollbtn.isSelected = true
+//            namebtn.isSelected = true
+//            nameFlg = false
+//        }
         
     }
     
@@ -406,20 +432,31 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
         
         self.view.endEditing(true)
         
-        if(sender.isSelected) {
-            sender.isSelected = false
-            searchBar.placeholder = "Enter nonprofit/charity name"
-            searchScrollBar.placeholder = "Enter nonprofit/charity name"
-            namebtn.isSelected = false
-            nameFlg = true
-        }
-        else {
-            searchBar.placeholder = "Search by city/state"
-            searchScrollBar.placeholder = "Search by city/state"
-            sender.isSelected = true
-            namebtn.isSelected = true
-            nameFlg = false
-        }
+//        if(sender.isSelected) {
+//            sender.isSelected = false
+//            searchBar.placeholder = "Enter nonprofit/charity name"
+//            searchScrollBar.placeholder = "Enter nonprofit/charity name"
+//            namebtn.isSelected = false
+//            nameFlg = true
+//        }
+//        else {
+//            searchBar.placeholder = "Search by city/state"
+//            searchScrollBar.placeholder = "Search by city/state"
+//            sender.isSelected = true
+//            namebtn.isSelected = true
+//            nameFlg = false
+//        }
+        
+        searchBar .resignFirstResponder()
+        searchedName = ""
+        self.searchBar.text = ""
+        self.searchScrollBar.text = ""
+        searchBar.placeholder = "Enter City/Sate"
+        searchScrollBar.placeholder = "Enter City/Sate"
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "GooglePlaceSearchViewController") as? GooglePlaceSearchViewController
+        vc?.boundaryForPlaces = "US"
+        vc?.placesDelegate = self
+        self.navigationController?.pushViewController(vc!, animated: true)
         
     }
     
@@ -603,13 +640,14 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
                                     // Joe 10
 
                                     MBProgressHUD.showAdded(to: self.view, animated: true)
-
+                                    
                                     let postDict: Parameters = ["user_id":myPeopleList.userID,
                                                                 "token":myPeopleList.token,
                                                                 "charity_id":self.selectedCharity?.id ?? "",
                                                                 "charity_name": self.selectedCharity?.name ?? "",
                                                                 "transaction_id":result.paymentMethod?.nonce ?? "",
                                                                 "amount":totalAmount.dollarString,
+                                                                "payment_type": result.paymentMethod?.type ?? "",
                                                                 "status":"approved"]
 
                                     let paymentUrl = String(format: URLHelper.iDonatePayment)
@@ -957,6 +995,11 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
             self.searchScrollBar.text = searchText
             searchedName = ""
         }
+        
+        if searchText.count == 0{
+            self.charityWebSerice()
+        }
+
     }
     
     
@@ -1049,12 +1092,15 @@ class SearchByNameVC: BaseViewController,UITableViewDelegate,UITableViewDataSour
             if self.pageCount == self.previousPageCount && self.pageCount != 1{
                 
             } else {
-                if self.charityResponse == nil || self.pageCount == 1 {
+                if self.charityResponse == nil && self.pageCount == 1 {
                     self.charityResponse = response
-                    self.charityListArray =  response.data!.sorted{ $0.name?.localizedCaseInsensitiveCompare($1.name!) == ComparisonResult.orderedAscending}
+                    self.charityListArray =  response.data.sorted{ $0.name?.localizedCaseInsensitiveCompare($1.name!) == ComparisonResult.orderedAscending}
+                } else if  self.pageCount == 1 {
+                    self.charityResponse = response
+                    self.charityListArray =  response.data.sorted{ $0.name?.localizedCaseInsensitiveCompare($1.name!) == ComparisonResult.orderedAscending}
                 } else {
-                    self.charityResponse?.data?.append(contentsOf: response.data!)
-                    self.charityListArray?.append(contentsOf: response.data!)
+                    self.charityResponse?.data.append(contentsOf: response.data)
+                    self.charityListArray?.append(contentsOf: response.data)
                 }
             }
             

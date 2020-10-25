@@ -69,7 +69,15 @@ class SubTypesViewController: BaseViewController {
     */
 
     @objc func backAction(_sender:UIButton)  {
-        self.navigationController?.popViewController(animated: true)
+        
+        let alert = UIAlertController(title: "", message: "Returning To previous screen without making changes?", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in
+            self.navigationController?.popViewController(animated: true)
+        }))
+        alert.addAction(UIAlertAction(title: "No", style: .default, handler: { action in
+        }))
+        self.present(alert, animated: true, completion: nil)
+        
     }
 }
 

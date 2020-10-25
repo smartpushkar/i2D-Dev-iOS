@@ -389,7 +389,7 @@ class RegisterVC: BaseViewController,GIDSignInDelegate {
     @IBAction func facebookLogin(_ sender:UIButton) {
         
         let fbLoginManager : LoginManager = LoginManager()
-        
+        fbLoginManager.logOut()
         fbLoginManager.logIn(permissions: ["email"], from: self) { (result, error) in
             print(result?.isCancelled as Any)
             
@@ -514,6 +514,7 @@ class RegisterVC: BaseViewController,GIDSignInDelegate {
                 let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "UpdateProfileVC") as? UpdateProfileVC
                 vc?.userName = self.userName
                 vc?.email = self.email
+                vc?.loginType = self.loginType
                 self.navigationController?.pushViewController(vc!, animated: true)
             }else {
                 UserDefaults.standard.set("Login", forKey: "loginType")

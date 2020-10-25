@@ -130,15 +130,6 @@ class ForgotVC: BaseViewController,UITextFieldDelegate {
         alert.addAction(UIAlertAction(title: "No", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
         
-//        let alert = UIAlertController(title: "", message: "Returning To Login Without Making Changes?", preferredStyle: .alert)
-//        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in
-//            self.view .endEditing(true)
-//            self.navigationController?.popViewController(animated: true)
-//        }))
-//        alert.addAction(UIAlertAction(title: "No", style: .default, handler: { action in
-//
-//        }))
-//        self.present(alert, animated: true, completion: nil)
     }
     
     @IBAction func sendAction(_sender : UIButton) {

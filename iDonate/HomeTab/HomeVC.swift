@@ -95,7 +95,7 @@ class HomeVC: BaseViewController,UICollectionViewDelegate,UICollectionViewDataSo
         menu.leftSide = true
         menu.statusBarEndAlpha = 0
         menu.menuWidth = screenWidth
-
+        menu.dismissOnPresent = false
         present(menu, animated: true, completion: nil)
         
     }

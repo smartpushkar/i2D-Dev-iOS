@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self.window?.makeKeyAndVisible()
         }
         
-        GIDSignIn.sharedInstance().clientID = "69456984217-n46elgfhqffcqov0tr1d7j5jn8b8qgrc.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance().clientID = "333392640937-6hc3d64f2m73jb9k8s8koktmglqpk129.apps.googleusercontent.com"
     
 //        PayPalMobile.initializeWithClientIds(forEnvironments:
 //            [PayPalEnvironmentProduction: "AWs4124obWk3JoyH35_e5LUId1GB3gHpecIO__mppzT8-MkFmZeNt-9DcFDLHzN6dxfLpYYLGnKu0Vgw",
@@ -59,7 +59,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             didFinishLaunchingWithOptions: launchOptions
         )
         
-        GMSPlacesClient.provideAPIKey("AIzaSyC2fhJItpTdpMayexFBR7MVCAafePrt3iA")
+        GMSPlacesClient.provideAPIKey("AIzaSyCXQhv_qRtIS_sgVskOOsiB-HpF8BxFm_I")
         
         UserDefaults.standard.set("United States", forKey: "selectedname")
         UserDefaults.standard.set("US", forKey: "selectedcountry")

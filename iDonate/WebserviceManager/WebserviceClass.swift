@@ -44,6 +44,14 @@ class WebserviceClass {
             KeychainService.savePassword(token: UUID().uuidString as NSString)
             param["device_id"] = KeychainService.loadPassword()
         }
+        
+        print("**************************")
+        
+        print("Request param", param)
+        print("Request urlString", urlString)
+
+        print("**************************")
+
             
         let url = URL(string: urlString)!
         var request = URLRequest(url: url)
@@ -56,7 +64,7 @@ class WebserviceClass {
             print(error.localizedDescription)
         }
         
-        AF.request(request).responseJSON { response in
+        AF.request(request).responseString { response in
 
             MBProgressHUD.hide(for: UIApplication.shared.keyWindow!, animated: true)
 
@@ -66,7 +74,8 @@ class WebserviceClass {
                     print(response.result)
                     // Convert This in JSON
                     do {
-                        let responseDecoded = try JSONDecoder().decode(T.self, from: data)
+                        let utf8Data = String(decoding: data, as: UTF8.self).data(using: .utf8)
+                        let responseDecoded = try JSONDecoder().decode(T.self, from: utf8Data!)
                         success(responseDecoded)
                     }catch let error as NSError{
                         print(error)

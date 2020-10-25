@@ -124,3 +124,27 @@ struct History: Codable {
 }
 
 
+
+struct DonationListModel: Codable {
+    var status: Int?
+    var message: String?
+    var data: [DonationModel]?
+}
+
+/*
+ "user_id": "49",
+            "charity_name": "6TH JUDICIAL DISTRICT CASA PROGRAM INC",
+            "payment_type": "Visa",
+            "amount": "$10.69",
+            "date": "October 19, 2020, 5:06 pm"
+ */
+
+struct DonationModel: Codable {
+    
+    var user_id: String?
+    var charity_name: String?
+    var payment_type: String?
+    var amount: String?
+    var date: String?
+
+}

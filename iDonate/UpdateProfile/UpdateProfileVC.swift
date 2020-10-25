@@ -45,7 +45,8 @@ class UpdateProfileVC: BaseViewController,UIImagePickerControllerDelegate,UINavi
     var updateType:String = ""
     var userName:String = ""
     var email:String = ""
-    
+    var loginType:String = ""
+
     var registeredType = String()
         
     var comingFromTypes = false
@@ -469,13 +470,15 @@ class UpdateProfileVC: BaseViewController,UIImagePickerControllerDelegate,UINavi
             UserDefaults.standard.set(encodedData, forKey: "people")
             UserDefaults.standard.synchronize()
             
-//            if comingFromTypes == false{
-//                let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "TapViewController") as? HomeTabViewController
-//                self.navigationController?.pushViewController(vc!, animated: true)
-//            } else {
-//                let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "AdvancedVC") as? AdvancedVC
-//                self.navigationController?.popToViewController(vc!, animated: true)
-//            }
+            if self.loginType == "Social" {
+                if comingFromTypes == false{
+                    let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "TapViewController") as? HomeTabViewController
+                    self.navigationController?.pushViewController(vc!, animated: true)
+                } else {
+                    let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "AdvancedVC") as? AdvancedVC
+                    self.navigationController?.popToViewController(vc!, animated: true)
+                }
+            }
             
         }
         else
@@ -497,7 +500,11 @@ class UpdateProfileVC: BaseViewController,UIImagePickerControllerDelegate,UINavi
     
     @objc func backAction(_sender:UIButton)  {
         self.view .endEditing(true)
-        self.navigationController?.popViewController(animated: true)
+        if self.loginType == "Social" {
+            self.navigationController?.popViewController(animated: true)
+        } else {
+            dismiss(animated: true, completion: nil)
+        }
     }
     
  @objc func keyboardWillShow(notification: NSNotification) {

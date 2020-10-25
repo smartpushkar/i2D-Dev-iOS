@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Base-url</key>
-	<string>https://admin.i2-donate.com/webservice/</string>
+	<string>https://check.i2-donate.com/webservice/</string>
 	<key>Live-url</key>
-	<string></string>
+	<string>https://admin.i2-donate.com/webservice/</string>
 	<key>Register</key>
 	<string>register</string>
 	<key>Login</key>
@@ -38,5 +38,7 @@
 	<string>notification</string>
 	<key>Tranasaction</key>
 	<string>transaction</string>
+	<key>TransactionList</key>
+	<string>transaction_list</string>
 </dict>
 </plist>

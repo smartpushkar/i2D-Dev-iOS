@@ -44,7 +44,7 @@ class GooglePlaceSearchViewController: BaseViewController, UISearchBarDelegate {
         tableView.tableFooterView = UIView(frame: CGRect.zero)
             
         // Set up the autocomplete filter.
-        let filter = GMSAutocompleteFilter()
+       let filter = GMSAutocompleteFilter()
         
         if boundaryForPlaces == "US" {
             filter.country = boundaryForPlaces

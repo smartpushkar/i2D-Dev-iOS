@@ -56,7 +56,15 @@ class SearchByTypeVC: BaseViewController,UICollectionViewDelegate,UICollectionVi
     }
     
     @objc func backAction(_sender:UIButton)  {
-        self.navigationController?.popViewController(animated: true)
+        let alert = UIAlertController(title: "", message: "Returning to previous screen without making any changes?", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in
+            self.navigationController?.popViewController(animated: true)
+        }))
+        alert.addAction(UIAlertAction(title: "No", style: .default, handler: { action in
+            
+        }))
+        self.present(alert, animated: true, completion: nil)
+
     }
     
     func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {

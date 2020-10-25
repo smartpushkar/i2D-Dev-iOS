@@ -168,10 +168,8 @@ extension MySpaceVC
          switch indexPath.row
          {
          case 0:
-            let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "MySpaceDetails") as? MySpaceDetails
-            vc?.LikeOrFollow = "Donation"
-            vc?.charityDonationArray = donationCountList
-            vc?.likeFOllowCOunt = "\(charityLikeFollowDonations?.paymentCount ?? 0)"
+            let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "MyDonationsViewController") as? MyDonationsViewController
+            
             self.navigationController?.pushViewController(vc!, animated: true)
             break
          case 1:

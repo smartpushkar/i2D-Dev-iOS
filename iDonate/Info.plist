@@ -35,7 +35,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.69456984217-n46elgfhqffcqov0tr1d7j5jn8b8qgrc</string>
+				<string>com.googleusercontent.apps.333392640937-6hc3d64f2m73jb9k8s8koktmglqpk129</string>
 			</array>
 		</dict>
 		<dict>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb815575865578946</string>
+				<string>fb358299902221931</string>
 			</array>
 		</dict>
 		<dict/>
@@ -55,9 +55,9 @@
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FacebookAppID</key>
-	<string>815575865578946</string>
+	<string>358299902221931</string>
 	<key>FacebookDisplayName</key>
-	<string>iDonate</string>
+	<string>i2~Donate</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>

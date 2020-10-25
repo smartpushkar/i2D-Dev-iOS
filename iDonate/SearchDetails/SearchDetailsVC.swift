@@ -326,6 +326,7 @@ class SearchDetailsVC: BaseViewController,UICollectionViewDelegate,UICollectionV
                                                             "charity_name": self.charityList?.name ?? "",
                                                             "transaction_id":result.paymentMethod?.nonce ?? "",
                                                             "amount":totalAmount.dollarString,
+                                                            "payment_type": result.paymentMethod?.type ?? "",
                                                             "status":"approved"]
                                 
                                 let paymentUrl = String(format: URLHelper.iDonatePayment)

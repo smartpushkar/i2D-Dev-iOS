@@ -59,7 +59,8 @@ class MenuVC:BaseViewController,UITableViewDelegate,UITableViewDataSource{
         if UserDefaults.standard.data(forKey: "people") != nil{
             let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "UpdateProfileVC") as? UpdateProfileVC
             vc?.updateType = "update"
-            self.navigationController?.pushViewController(vc!, animated: true)
+            vc?.modalPresentationStyle = .fullScreen
+            self.navigationController?.present(vc!, animated: true, completion: nil)
         }
         else{
             let alertController = UIAlertController(title: "", message: "", preferredStyle: UIAlertController.Style.alert)

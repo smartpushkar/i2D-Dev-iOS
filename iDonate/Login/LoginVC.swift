@@ -224,6 +224,7 @@ class LoginVC: BaseViewController,GIDSignInDelegate {
         
             if(loginType == "Social") {
                 let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "UpdateProfileVC") as? UpdateProfileVC
+                vc?.loginType = "Social"
                 self.navigationController?.pushViewController(vc!, animated: true)
             } else {
                 
@@ -272,6 +273,8 @@ class LoginVC: BaseViewController,GIDSignInDelegate {
     @IBAction func facebookLogin(_ sender:UIButton) {
         
         let fbLoginManager : LoginManager = LoginManager()
+        
+        fbLoginManager.logOut()
         
         fbLoginManager.logIn(permissions: ["email"], from: self) { (result, error) in
             print(result?.isCancelled as Any)
