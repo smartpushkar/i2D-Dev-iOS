@@ -184,7 +184,7 @@
 		3FBF4AC4228C1F2D0095FCBD /* SF-Compact-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Light.otf"; sourceTree = "<group>"; };
 		3FC0BE6422CB817E009FBADA /* CharityLikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityLikeModel.swift; sourceTree = "<group>"; };
 		3FC6E3FA22EED44F00355548 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
-		3FC72DE122706C40004B2FB3 /* iDonate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDonate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC72DE122706C40004B2FB3 /* i2~Donate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "i2~Donate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC72DE422706C41004B2FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC72DE622706C41004B2FB3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		3FC72DE922706C41004B2FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -493,7 +493,7 @@
 		3FC72DE222706C40004B2FB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FC72DE122706C40004B2FB3 /* iDonate.app */,
+				3FC72DE122706C40004B2FB3 /* i2~Donate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -677,9 +677,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FC72DE022706C40004B2FB3 /* iDonate */ = {
+		3FC72DE022706C40004B2FB3 /* i2~Donate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FC72DF322706C62004B2FB3 /* Build configuration list for PBXNativeTarget "iDonate" */;
+			buildConfigurationList = 3FC72DF322706C62004B2FB3 /* Build configuration list for PBXNativeTarget "i2~Donate" */;
 			buildPhases = (
 				EA7308AE1F26B52B53FC0D47 /* [CP] Check Pods Manifest.lock */,
 				3FC72DDD22706C40004B2FB3 /* Sources */,
@@ -692,9 +692,9 @@
 			);
 			dependencies = (
 			);
-			name = iDonate;
+			name = "i2~Donate";
 			productName = iDonate;
-			productReference = 3FC72DE122706C40004B2FB3 /* iDonate.app */;
+			productReference = 3FC72DE122706C40004B2FB3 /* i2~Donate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -718,7 +718,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3FC72DDC22706C40004B2FB3 /* Build configuration list for PBXProject "iDonate" */;
+			buildConfigurationList = 3FC72DDC22706C40004B2FB3 /* Build configuration list for PBXProject "i2~Donate" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -731,7 +731,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FC72DE022706C40004B2FB3 /* iDonate */,
+				3FC72DE022706C40004B2FB3 /* i2~Donate */,
 			);
 		};
 /* End PBXProject section */
@@ -1049,7 +1049,7 @@
 				CODE_SIGN_ENTITLEMENTS = iDonate/iDonate.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = A3C8934K5J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1081,7 +1081,7 @@
 				CODE_SIGN_ENTITLEMENTS = iDonate/iDonate.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution: i-Apps LLC (A3C8934K5J)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = A3C8934K5J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1106,7 +1106,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FC72DDC22706C40004B2FB3 /* Build configuration list for PBXProject "iDonate" */ = {
+		3FC72DDC22706C40004B2FB3 /* Build configuration list for PBXProject "i2~Donate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FC72DF122706C62004B2FB3 /* Debug */,
@@ -1115,7 +1115,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FC72DF322706C62004B2FB3 /* Build configuration list for PBXNativeTarget "iDonate" */ = {
+		3FC72DF322706C62004B2FB3 /* Build configuration list for PBXNativeTarget "i2~Donate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FC72DF422706C62004B2FB3 /* Debug */,

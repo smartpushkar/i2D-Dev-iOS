@@ -274,8 +274,11 @@ class LoginVC: BaseViewController,GIDSignInDelegate {
         
         let fbLoginManager : LoginManager = LoginManager()
         
-        fbLoginManager.logOut()
-        
+        if let token = AccessToken.current,
+           !token.isExpired {
+            // User is logged in, do work such as go to next view controller.
+            fbLoginManager.logOut()
+        }
         fbLoginManager.logIn(permissions: ["email"], from: self) { (result, error) in
             print(result?.isCancelled as Any)
             
