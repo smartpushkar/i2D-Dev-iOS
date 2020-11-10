@@ -51,6 +51,7 @@
 		025A1162E9C1F9C9952A717B35270CC7 /* BTUIKCardVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A7CBFAC2E383648BBB6832064B66B6 /* BTUIKCardVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		02EF2B5CA18CC3E4BEAD8D33739130B7 /* FBSDKErrorReport.m in Sources */ = {isa = PBXBuildFile; fileRef = FF63CCDC5C9DEC1A8ABBE0C603E7354A /* FBSDKErrorReport.m */; };
 		03A1BB780CCD78009E46B82F1B5CC787 /* PPOTBillingAgreementRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9FD51FF86393A938C845B9A9B81AB3 /* PPOTBillingAgreementRequest.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra"; }; };
+		03C3622D72E45A64C05E7579D0D089B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B855BF138BA3A8509ACF76F13F10DE7 /* Foundation.framework */; };
 		0459C44F6ABE53B27E02446B71B00C27 /* PPOTSwitchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 40955613875DE4E6CB112D9170E52DA4 /* PPOTSwitchRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		04BE3B0C689BF0ABBC33B58989F333BD /* BTPaymentFlowRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D5DC342FD6A60F08AC0EF4A17B4C9147 /* BTPaymentFlowRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04C996929F0D7E62450838D23B6D2330 /* BTBinData.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4E841FD1F8646CF923736824F1310E /* BTBinData.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra"; }; };
@@ -98,6 +99,7 @@
 		0E23750FE124E07AFF21DB9AC9542BCE /* AppAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A88B6EA952B2F470EF16380F0B8EDD /* AppAuth-dummy.m */; };
 		0E7681D38DE7A76DEAD09A0FE9B07180 /* PPOTJSONHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 76355686F6BFE048823C98820D61BBF3 /* PPOTJSONHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EA7C241570985E3F0BC74F56A701439 /* BTThreeDSecureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A38840F5287A5EC110F0AF451FF48C /* BTThreeDSecureInfo.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra"; }; };
+		0EA812D5F3F42BA21194AAAC01F87740 /* Pods-i2~Donate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DE90DD7B2B8DDB6E5CB43C84EACE93 /* Pods-i2~Donate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ED518950BCCA23AEB34FF68342A04D6 /* PPOTCheckoutSwitchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D063EE74C23421A5AFD43FD8B2AE1 /* PPOTCheckoutSwitchRequest.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra"; }; };
 		0EF5C371BE15F3F9A22C5D6B7E532807 /* NetworkActivityIndicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA28E003676237E5D8B0F6230BDF95A0 /* NetworkActivityIndicatorManager.swift */; };
 		0F7C476954F3CD696D8B05615C24A5CD /* FBSDKCrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E1225D269D32466BA18D2E881E74BA16 /* FBSDKCrashHandler.m */; };
@@ -475,7 +477,6 @@
 		73ADB47ECC8BB07384A999A56B4F388C /* FBSDKDeviceLoginManagerResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 8935F0D27ADF9920651DFD6B9A7038F2 /* FBSDKDeviceLoginManagerResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73F0680A115EAB06C96725E951DF533C /* FBSDKBridgeAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2A905B9FCC4D094E72B094AC448AB /* FBSDKBridgeAPIRequest.m */; };
 		744005FC9BFC81E90B88C2A346D02442 /* FBSDKDeviceButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0AF955084AD5115EB4D8657F0DD290 /* FBSDKDeviceButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74AFF098964B91D3931295C3934A945B /* Pods-iDonate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E2A4C3C236E8002CF8264612F147D6 /* Pods-iDonate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74F8F6A5FE01EA0AA2BD6C1137772278 /* FBSDKDeviceLoginCodeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F34D800C85622484A13FEA6D2D98AC9 /* FBSDKDeviceLoginCodeInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7514DE4978DCB341712DF7BB214367ED /* FBSDKMethodUsageMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D76C57851D4B09E963D9BDE35CEA3F1 /* FBSDKMethodUsageMonitor.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7514ECFC665EED8F9FE31D6D30650A21 /* PPOTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D3D14D018C26DEC8BBD2413AAA25E /* PPOTRequest.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra"; }; };
@@ -490,7 +491,6 @@
 		7760765724D0C23E4802C413D0468F05 /* BTAppSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B30CD22A42E624167E2204C21115E /* BTAppSwitch.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra"; }; };
 		7778473F7DC8DAF26593995C73EB2FB4 /* FBSDKCodelessIndexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ADE6DA3FDA56801087E531386DD4B99 /* FBSDKCodelessIndexer.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		77AF2098DDCCAAE0CE4A20725C466905 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15190E959BE5EA5D0C20C45C8AB783D6 /* SideMenuManager.swift */; };
-		77C68651583AF0F556BDF7918083E6CE /* Pods-iDonate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEC1D74ABF4065417A6519F700A3E55 /* Pods-iDonate-dummy.m */; };
 		77F97F9098B9C1DABA0319396756DFDB /* BTConfiguration+ThreeDSecure.h in Headers */ = {isa = PBXBuildFile; fileRef = 61AE6E2112FC7074DD10DCDD6ED6D2B0 /* BTConfiguration+ThreeDSecure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7860293DB8DEEA581B17099A71CB45C6 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0802475AD7BF6E91056BC40B4D13EAED /* tr.lproj */; };
 		7870AC1C880C7A9046F7C53C13C78DED /* BTUIKCVVFrontVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = E658D393520574E3D7EE16ECD26FF3DC /* BTUIKCVVFrontVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -524,7 +524,6 @@
 		7FC7000FF5BF02AD643813D3DB334389 /* BTUIKJCBVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4324F319119F83830704187AA7BC1A60 /* BTUIKJCBVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra"; }; };
 		808517651EBDDCE001A8D4ACBC6F2553 /* BTPayPalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4725AF188040359F9191BA8047437D /* BTPayPalRequest.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra"; }; };
 		809DA061CD75DA1884B6906E3C4E78D9 /* FBSDKMLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB8DFD5565456574FF8A77F5D2C75FE /* FBSDKMLMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		8133F62FD0DB6D437F8F0F7C304B819B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B855BF138BA3A8509ACF76F13F10DE7 /* Foundation.framework */; };
 		81B984DFA263F8F3E85C0EA665E70A1E /* FBSDKAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377EFED5E9003E622207C0E63B645543 /* FBSDKAppLinkReturnToRefererController.m */; };
 		81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D519EBADF28CB82D82591A017E87A6 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82216EAE8399121B0386C93BD002825B /* BTUIKInputAccessoryToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = A482EA9E279E2B8956F77479621C0188 /* BTUIKInputAccessoryToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -698,6 +697,7 @@
 		AFB3B5A11F9F9C016E4863FA9F7AF63F /* FBSDKErrorConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 25CF03FA985996DB78E7686D3527120E /* FBSDKErrorConfiguration.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B00AF14E70C26C9D19EDB3AB4F04123E /* OIDRegistrationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B671EB6815CE5046BA87A04181DDE88 /* OIDRegistrationRequest.m */; };
 		B04BF7724A83981C727BAA5419426489 /* BTJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B2F9E2C61D2BB4AA42F7E9775FCF3C /* BTJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B10107A5D934F14510BE252A17F1C896 /* Pods-i2~Donate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE9C87CE7890D859692576C4583EC6 /* Pods-i2~Donate-dummy.m */; };
 		B11065BB476FB4FB96BBD540BFA2B4C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BD78BA4652FE1E22EDF00546C23D95 /* UIKit.framework */; };
 		B11FB19BB82D192809A8C40E08671E7A /* BTUIKPaymentOptionCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8729608CB4469590BE69E2BBE83450F6 /* BTUIKPaymentOptionCardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1E7385FD145B1B952F2DFB7902A0F9E /* FBSDKKeychainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 740EA74069A8607E0F08728DC9FE5045 /* FBSDKKeychainStore.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -982,20 +982,6 @@
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		088A4EB5CD0745FF62FF2A1C21FE6188 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 10C5885FCB0908EF785774EE52473DAB;
-			remoteInfo = FBSDKLoginKit;
-		};
-		089C927E6593349C933C39228E6128E3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
-		};
 		0D3F4C7D0CA6B54A9A76689133F63834 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1003,19 +989,12 @@
 			remoteGlobalIDString = D676E21115185671D7258A56944ABE98;
 			remoteInfo = GTMSessionFetcher;
 		};
-		10887F758D39D8814BC716038DF3C7F2 /* PBXContainerItemProxy */ = {
+		23845F935A3A9E034211CC940D92858F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CAD3534FC55B0333104E5117C0A9A324;
-			remoteInfo = GoogleSignIn;
-		};
-		1FFAF83243653ECC5DE010185BB3EDE8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
-			remoteInfo = GoogleMaps;
+			remoteGlobalIDString = 5C642AA10FB29936669CC269F42079C6;
+			remoteInfo = AppAuth;
 		};
 		2CF17CE5821A2B886FACC0F21F5050DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1024,6 +1003,13 @@
 			remoteGlobalIDString = 5C642AA10FB29936669CC269F42079C6;
 			remoteInfo = AppAuth;
 		};
+		3693F6DDBAF1E1970A149E5E748E46D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C5885FCB0908EF785774EE52473DAB;
+			remoteInfo = FBSDKLoginKit;
+		};
 		39D3B8F36372EA9A9D43BD2FB8A7C2CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1031,12 +1017,40 @@
 			remoteGlobalIDString = 600973CE212C72CB2C3B7197A9B4CE18;
 			remoteInfo = "BraintreeDropIn-Braintree-UIKit-Localization";
 		};
-		4CE30DB6C2B995D851A13CEA2CC6ED37 /* PBXContainerItemProxy */ = {
+		4607BC3C02B2F3C01C577913B98FD4E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8627999EF1D5E93E13DAFF580DA8CDCF;
-			remoteInfo = GTMAppAuth;
+			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
+			remoteInfo = SideMenu;
+		};
+		5683CB9A51C7C296C7E97DEA05A16C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
+			remoteInfo = AlamofireImage;
+		};
+		59BFCA0C4244519B002A1505A4D39242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C796CDB90777AB5D92691D3F8F2DDA5;
+			remoteInfo = AlamofireNetworkActivityIndicator;
+		};
+		5F46F8F89EA125D35ED38977E9BC597A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 239150F002EFA3C206FCDF47B01A934C;
+			remoteInfo = BraintreeDropIn;
+		};
+		60EC982FF42E29402E11D4D5F82686E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
 		};
 		63F575D4D35B083B4B479E7EF7A9FCE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1045,13 +1059,6 @@
 			remoteGlobalIDString = 5C642AA10FB29936669CC269F42079C6;
 			remoteInfo = AppAuth;
 		};
-		77CED2B6E2CCDDC21E6CD4E80DC79144 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 239150F002EFA3C206FCDF47B01A934C;
-			remoteInfo = BraintreeDropIn;
-		};
 		7A35EBC5145A1E281EE86E78C8BE4002 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1059,26 +1066,19 @@
 			remoteGlobalIDString = D676E21115185671D7258A56944ABE98;
 			remoteInfo = GTMSessionFetcher;
 		};
-		7A736FD11F64D30EAC7E470DBC411F09 /* PBXContainerItemProxy */ = {
+		82E30764A2D2CA7E48DBFA370F7C6FD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
+			remoteGlobalIDString = CAD3534FC55B0333104E5117C0A9A324;
+			remoteInfo = GoogleSignIn;
 		};
-		7BFB47D19182D552DEEE12D1D532CADA /* PBXContainerItemProxy */ = {
+		8C923C3EA15B23D22D0AB00297BA4B45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D676E21115185671D7258A56944ABE98;
-			remoteInfo = GTMSessionFetcher;
-		};
-		81DF16C24938D9127B61DF3578109F29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B61E5252055CCBA0F6EEAD4CE215A48D;
-			remoteInfo = TKFormTextField;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
 		};
 		8E29B15AA56D67FBD3F42BC041FA8F8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1087,19 +1087,12 @@
 			remoteGlobalIDString = 8627999EF1D5E93E13DAFF580DA8CDCF;
 			remoteInfo = GTMAppAuth;
 		};
-		9436CA20EC3704AE1D0E17956F150485 /* PBXContainerItemProxy */ = {
+		903B367824930D017760311836ED46B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BAE8F711B8B7870AC224B3B1C5FB6540;
-			remoteInfo = Braintree;
-		};
-		9CE7796FF60963C29108F5B6E0B41FB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
-			remoteInfo = GooglePlaces;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
 		};
 		A5F0C9539F8C5142D5CDDB2EAA6D1078 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1108,12 +1101,26 @@
 			remoteGlobalIDString = 28907903AF6DD0AD321D92CD660E7E23;
 			remoteInfo = FBSDKCoreKit;
 		};
-		BF73AE7DD92F7EFB7F10979907B63DC0 /* PBXContainerItemProxy */ = {
+		AAD770100466490745E43C0BB90A9902 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C642AA10FB29936669CC269F42079C6;
-			remoteInfo = AppAuth;
+			remoteGlobalIDString = 28907903AF6DD0AD321D92CD660E7E23;
+			remoteInfo = FBSDKCoreKit;
+		};
+		BD01B91E5C9983906E60D082A3E5DB96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D676E21115185671D7258A56944ABE98;
+			remoteInfo = GTMSessionFetcher;
+		};
+		BF222DF29A228D71105668290940B7CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61E5252055CCBA0F6EEAD4CE215A48D;
+			remoteInfo = TKFormTextField;
 		};
 		D0EE93AD31F3D7868621287C3545F233 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1129,33 +1136,26 @@
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		E0912026E11938731152B7AA26EDB097 /* PBXContainerItemProxy */ = {
+		ED915BE17D6D82921FFF06B7BB287297 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
-			remoteInfo = SideMenu;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
 		};
-		F0915BC1D45CB6EFF5182977714A8595 /* PBXContainerItemProxy */ = {
+		F1DFA5A6F85DD2C8F6B35F565ADA9E85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 28907903AF6DD0AD321D92CD660E7E23;
-			remoteInfo = FBSDKCoreKit;
+			remoteGlobalIDString = 8627999EF1D5E93E13DAFF580DA8CDCF;
+			remoteInfo = GTMAppAuth;
 		};
-		F41D6B340FA323ACDFAD17789F039940 /* PBXContainerItemProxy */ = {
+		F6F4C2506F8735C48DA4D134926D498E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
-			remoteInfo = AlamofireImage;
-		};
-		FB11C3C1A7C0A22AE4E16CA90A617F25 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8C796CDB90777AB5D92691D3F8F2DDA5;
-			remoteInfo = AlamofireNetworkActivityIndicator;
+			remoteGlobalIDString = BAE8F711B8B7870AC224B3B1C5FB6540;
+			remoteInfo = Braintree;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1194,6 +1194,7 @@
 		09BD0E2BB7CEE9EDE50B502143D392C9 /* FBSDKDeviceViewControllerBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKDeviceViewControllerBase.m; path = FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceViewControllerBase.m; sourceTree = "<group>"; };
 		09DC0597D43A81862233D1927D7AB1AD /* OIDIDToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDIDToken.m; path = Source/AppAuthCore/OIDIDToken.m; sourceTree = "<group>"; };
 		0A1CF9738F4BEB48D434C531D3790A21 /* FBSDKDeviceDialogView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKDeviceDialogView.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Device/FBSDKDeviceDialogView.h; sourceTree = "<group>"; };
+		0A61027E11AA4418D00A05E2F84A635E /* Pods_i2_Donate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_i2_Donate.framework; path = "Pods-i2~Donate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7166328F9A4DB11B447D9E8F0C5552 /* PPOTOAuth2AppSwitchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOTOAuth2AppSwitchRequest.h; path = BraintreePayPal/PayPalOneTouch/Models/PPOTOAuth2AppSwitchRequest.h; sourceTree = "<group>"; };
 		0AA36AF3A09C4B3FA5D3A23F775AA9A6 /* PPOTAuthorizationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPOTAuthorizationRequest.m; path = BraintreePayPal/PayPalOneTouch/Models/PPOTAuthorizationRequest.m; sourceTree = "<group>"; };
 		0AC2E5C326373C85E4FD4076EC949528 /* OIDError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDError.m; path = Source/AppAuthCore/OIDError.m; sourceTree = "<group>"; };
@@ -1235,7 +1236,6 @@
 		11F6CE754BABFE43C9D61CD1E1C051BC /* FBSDKLogo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKLogo.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKLogo.m; sourceTree = "<group>"; };
 		12559DF065A22040F80CC6FC5E5EE0F2 /* FBSDKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKIcon.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKIcon.m; sourceTree = "<group>"; };
 		1262FC0DB98CD8AE450225DE3B28DA28 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Pod/Classes/Protected.swift; sourceTree = "<group>"; };
-		13643629DFEEBB0B21857F82822FE1D9 /* Pods-iDonate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iDonate-Info.plist"; sourceTree = "<group>"; };
 		13B8919BFB0074FFB90085443576EF11 /* OIDErrorUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDErrorUtilities.h; path = Source/AppAuthCore/OIDErrorUtilities.h; sourceTree = "<group>"; };
 		1461F30066FEBF0C4B8275C8D67ABEA2 /* BTAnalyticsMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAnalyticsMetadata.h; path = BraintreeCore/BTAnalyticsMetadata.h; sourceTree = "<group>"; };
 		15190E959BE5EA5D0C20C45C8AB783D6 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
@@ -1261,6 +1261,7 @@
 		1B64302D9C6F411BC030EAC603A7447D /* FBSDKBridgeAPIRequest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKBridgeAPIRequest+Private.h"; path = "FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/FBSDKBridgeAPIRequest+Private.h"; sourceTree = "<group>"; };
 		1C58282CEBD40144C941582948CEBD6E /* PPOTSimpleKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOTSimpleKeychain.h; path = BraintreePayPal/PayPalUtils/Public/PPOTSimpleKeychain.h; sourceTree = "<group>"; };
 		1C9CD607A8B6A619E41DDCD748D6773C /* PPOTCheckoutRequest_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOTCheckoutRequest_Internal.h; path = BraintreePayPal/PayPalOneTouch/Models/PPOTCheckoutRequest_Internal.h; sourceTree = "<group>"; };
+		1CBE9C87CE7890D859692576C4583EC6 /* Pods-i2~Donate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-i2~Donate-dummy.m"; sourceTree = "<group>"; };
 		1D20F7D3D2D12043885D7DF7AE9458B4 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = BraintreeUIKit/Localization/es.lproj; sourceTree = "<group>"; };
 		1D508A40620806DF5E043A9E66B288BC /* FBSDKPerformanceMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKPerformanceMonitor.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKPerformanceMonitor.m; sourceTree = "<group>"; };
 		1DA593C166AA4F2737E47E92C80FB9E4 /* FBSDKHybridAppEventsScriptMessageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKHybridAppEventsScriptMessageHandler.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKHybridAppEventsScriptMessageHandler.h; sourceTree = "<group>"; };
@@ -1294,6 +1295,7 @@
 		2501B44CBA349B2360A6B395D186CFDA /* PPOTError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPOTError.m; path = BraintreePayPal/PayPalOneTouch/Models/PPOTError.m; sourceTree = "<group>"; };
 		2505A4AD481AD31B282EA5B3952E2CDA /* PPOTOAuth2BrowserSwitchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOTOAuth2BrowserSwitchRequest.h; path = BraintreePayPal/PayPalOneTouch/Models/PPOTOAuth2BrowserSwitchRequest.h; sourceTree = "<group>"; };
 		250F8CEA1FD1D57350409F37A221E612 /* BTUIKMaestroVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKMaestroVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKMaestroVectorArtView.m"; sourceTree = "<group>"; };
+		25AA5DA3E1393E470D8E04F3DD93C8D5 /* Pods-i2~Donate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-i2~Donate-frameworks.sh"; sourceTree = "<group>"; };
 		25CF03FA985996DB78E7686D3527120E /* FBSDKErrorConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKErrorConfiguration.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKErrorConfiguration.h; sourceTree = "<group>"; };
 		25CF8F3246C0315D6FC152E8405BC3AF /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
 		25DDEEBA7DBEE3140CE7377387D579AE /* OIDExternalUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgent.h; path = Source/AppAuthCore/OIDExternalUserAgent.h; sourceTree = "<group>"; };
@@ -1322,14 +1324,17 @@
 		2B23A1FF2BF0B57AAE5320D900568C88 /* FBSDKGraphRequestDataAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKGraphRequestDataAttachment.h; path = FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestDataAttachment.h; sourceTree = "<group>"; };
 		2B6D3D14D018C26DEC8BBD2413AAA25E /* PPOTRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPOTRequest.m; path = BraintreePayPal/PayPalOneTouch/Models/PPOTRequest.m; sourceTree = "<group>"; };
 		2B855BF138BA3A8509ACF76F13F10DE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2C9AC950D8F9984C245A955FE809DE55 /* Pods-i2~Donate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-i2~Donate-Info.plist"; sourceTree = "<group>"; };
 		2D553117F9B621A9A6219A10EE0C6A54 /* PPOTAnalyticsDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOTAnalyticsDefines.h; path = BraintreePayPal/PayPalOneTouch/Analytics/PPOTAnalyticsDefines.h; sourceTree = "<group>"; };
 		2D68807694D1EC507F55A1D09A75F519 /* OIDGrantTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDGrantTypes.m; path = Source/AppAuthCore/OIDGrantTypes.m; sourceTree = "<group>"; };
 		2D958A9DC37F159EB16E4F2BA2EA32D4 /* OIDAuthStateErrorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthStateErrorDelegate.h; path = Source/AppAuthCore/OIDAuthStateErrorDelegate.h; sourceTree = "<group>"; };
+		2D97ECFB05B604AA03CA043C7B7DF180 /* Pods-i2~Donate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-i2~Donate-acknowledgements.plist"; sourceTree = "<group>"; };
 		2DA109A9409A13D394D232A75FB1C42D /* BTPayPalCreditFinancing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPayPalCreditFinancing.h; path = BraintreePayPal/Public/BTPayPalCreditFinancing.h; sourceTree = "<group>"; };
 		2DB51DBE13F9DEC2544FB7FE6CB64473 /* SideMenuPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationController.swift; path = Pod/Classes/SideMenuPresentationController.swift; sourceTree = "<group>"; };
 		2DC75F29F5C86AE29C439014A7DE2DE9 /* FBSDKCodelessParameterComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKCodelessParameterComponent.m; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKCodelessParameterComponent.m; sourceTree = "<group>"; };
 		2DCABFC38B6C42402CB65856B43FCF9E /* FBSDKCodelessIndexer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKCodelessIndexer.m; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKCodelessIndexer.m; sourceTree = "<group>"; };
 		2DD0D2421A2A16A0979250C84DB27285 /* BTThreeDSecureAuthenticateJWT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTThreeDSecureAuthenticateJWT.m; path = BraintreePaymentFlow/ThreeDSecure/BTThreeDSecureAuthenticateJWT.m; sourceTree = "<group>"; };
+		2E0324DC2E5739E511E1A68953F3F639 /* Pods-i2~Donate-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-i2~Donate-resources.sh"; sourceTree = "<group>"; };
 		2E1B8531B21203288D5B65C34B86DA4A /* BTUIKVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKVectorArtView.h; path = BraintreeUIKit/Public/BTUIKVectorArtView.h; sourceTree = "<group>"; };
 		2E4A101C39B601F357DE38572A4C909B /* OIDServiceDiscovery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDServiceDiscovery.m; path = Source/AppAuthCore/OIDServiceDiscovery.m; sourceTree = "<group>"; };
 		2E764E8340FB9036A173977E009148B9 /* BTConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTConfiguration.h; path = BraintreeCore/Public/BTConfiguration.h; sourceTree = "<group>"; };
@@ -1357,6 +1362,7 @@
 		352A3F7E5640DD3799B3DF537B106E64 /* FBSDKMonitoringConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKMonitoringConfiguration.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKMonitoringConfiguration.h; sourceTree = "<group>"; };
 		352E280780314A9A144952A3176A4821 /* FBSDKAppEventsUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAppEventsUtility.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEventsUtility.h; sourceTree = "<group>"; };
 		35731CCFB87820AC7F2781EDBD35DF63 /* FBSDKLoginKit+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKLoginKit+Internal.h"; path = "FBSDKLoginKit/FBSDKLoginKit/Internal/FBSDKLoginKit+Internal.h"; sourceTree = "<group>"; };
+		35B95AB3749D9B08F956AFCD3F0A373A /* Pods-i2~Donate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-i2~Donate.modulemap"; sourceTree = "<group>"; };
 		364404A3287F24E24B5AB5F0093B9E9B /* BTUIKVisualAssetType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKVisualAssetType.h; path = BraintreeUIKit/Public/BTUIKVisualAssetType.h; sourceTree = "<group>"; };
 		36F1502AD91D3FADC8D39157C542F7C9 /* FBSDKProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKProfile.h; path = FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h; sourceTree = "<group>"; };
 		36FAF028D704804C42A68CA52B05B096 /* FBSDKSuggestedEventsIndexer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKSuggestedEventsIndexer.m; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/SuggestedEvents/FBSDKSuggestedEventsIndexer.m; sourceTree = "<group>"; };
@@ -1364,7 +1370,6 @@
 		376FD57E957C01027E5CB7AAC105D66F /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
 		377EFED5E9003E622207C0E63B645543 /* FBSDKAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKAppLinkReturnToRefererController.m; path = FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
 		37CECC4FF7EE0BBAB5D0FAEE0502A366 /* BTUIKUnknownCardVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKUnknownCardVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKUnknownCardVectorArtView.h"; sourceTree = "<group>"; };
-		3813C051EED7E2DECE4782A695931CC7 /* Pods-iDonate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iDonate-acknowledgements.plist"; sourceTree = "<group>"; };
 		385F229F54CC5A0C135A39672FB97EC4 /* FBSDKWebDialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKWebDialog.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/WebDialog/FBSDKWebDialog.m; sourceTree = "<group>"; };
 		38672BB806375846A6BF7A495D461D92 /* BTUIKCardExpirationValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCardExpirationValidator.h; path = BraintreeUIKit/Public/BTUIKCardExpirationValidator.h; sourceTree = "<group>"; };
 		389BBAC0C012CD70C89C84CDD36504C6 /* FBSDKTooltipView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKTooltipView.m; path = FBSDKLoginKit/FBSDKLoginKit/FBSDKTooltipView.m; sourceTree = "<group>"; };
@@ -1497,7 +1502,6 @@
 		5705C3A79437EEBC6DAF229F14BA94D9 /* BTClientMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTClientMetadata.m; path = BraintreeCore/BTClientMetadata.m; sourceTree = "<group>"; };
 		571373A9E70326B5313189E9BCA00588 /* FBSDKCoreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSDKCoreKit-prefix.pch"; sourceTree = "<group>"; };
 		5731EB781163A3E9848567120F0B953C /* FBSDKLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKLogger.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKLogger.m; sourceTree = "<group>"; };
-		57634C082EF12F4C43B26EACAD2B1981 /* Pods-iDonate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iDonate-frameworks.sh"; sourceTree = "<group>"; };
 		5770A8B35126749742F8BDCB57F0A137 /* FBSDKDeviceLoginManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKDeviceLoginManager.m; path = FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManager.m; sourceTree = "<group>"; };
 		579A4E5E51034F3B5AB34124C59DE9B8 /* PPOTCheckoutBrowserSwitchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPOTCheckoutBrowserSwitchRequest.m; path = BraintreePayPal/PayPalOneTouch/Models/PPOTCheckoutBrowserSwitchRequest.m; sourceTree = "<group>"; };
 		5889EF08487B54E41318E0F56A719769 /* BTUIKVenmoMonogramCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKVenmoMonogramCardView.m; path = "BraintreeUIKit/Vector Art/BTUIKVenmoMonogramCardView.m"; sourceTree = "<group>"; };
@@ -1542,7 +1546,6 @@
 		63A20589E988B66B4F3CB21878808C1B /* BTUIKLargeHipercardVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeHipercardVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeHipercardVectorArtView.h"; sourceTree = "<group>"; };
 		63FF30B9AECB6B989A9E992C7B382B5B /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
 		645C7B57B64BBB7289F0F1E127510209 /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Source/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
-		64A03DC28B78C3B801E6699296FA5DDB /* Pods_iDonate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iDonate.framework; path = "Pods-iDonate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A2F6E13DE0E0C1ED6B334F91E95BAD /* BTURLUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTURLUtils.h; path = BraintreeCore/Public/BTURLUtils.h; sourceTree = "<group>"; };
 		64C77C5FF8676F823EDF0DB0BEDBD835 /* FBSDKAppEventsDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAppEventsDeviceInfo.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEventsDeviceInfo.h; sourceTree = "<group>"; };
 		64C983C1192B167E7ACDFD122666D6F9 /* BTUIKLargeHiperVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeHiperVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeHiperVectorArtView.h"; sourceTree = "<group>"; };
@@ -1627,6 +1630,7 @@
 		78AFFA403B258F089F84C39594E49CA3 /* BTUIKUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKUtil.m; path = BraintreeUIKit/Models/BTUIKUtil.m; sourceTree = "<group>"; };
 		792D04B545252BE51BDF5F3BCFDB1957 /* BTUIKLargeVisaVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeVisaVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeVisaVectorArtView.h"; sourceTree = "<group>"; };
 		79DAC91D17DAF316AAFE078A29D8EBC0 /* FBSDKPerformanceMonitorEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKPerformanceMonitorEntry.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKPerformanceMonitorEntry.h; sourceTree = "<group>"; };
+		7A110D7AFD82D2914B710A9721EB7A02 /* Pods-i2~Donate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-i2~Donate.release.xcconfig"; sourceTree = "<group>"; };
 		7AE1548E06445AD1528B9BA91FB37E9A /* FBSDKGraphRequestConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKGraphRequestConnection.m; path = FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestConnection.m; sourceTree = "<group>"; };
 		7B017977E38C434D0F943F3F3BBAC778 /* FBSDKEventDeactivationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKEventDeactivationManager.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/EventDeactivation/FBSDKEventDeactivationManager.h; sourceTree = "<group>"; };
 		7B655A21BC6636E8CB36E68FE0B5DB58 /* PPRMOCMagnesSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPRMOCMagnesSDK.h; path = BraintreePayPal/PayPalDataCollector/Risk/PPRMOCMagnesSDK.h; sourceTree = "<group>"; };
@@ -1692,6 +1696,7 @@
 		87BA903C97C459AB0B2B786F0BA26D40 /* FBSDKViewHierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKViewHierarchy.m; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ViewHierarchy/FBSDKViewHierarchy.m; sourceTree = "<group>"; };
 		87C47B61283091E8F82BF88A1A885970 /* BTConfiguration+GraphQL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BTConfiguration+GraphQL.m"; path = "BraintreeCore/BTConfiguration+GraphQL.m"; sourceTree = "<group>"; };
 		87D5531B055E735E38FF19CEF345CC1A /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
+		87DE90DD7B2B8DDB6E5CB43C84EACE93 /* Pods-i2~Donate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-i2~Donate-umbrella.h"; sourceTree = "<group>"; };
 		87FBC2EAC9BBAE37F97528F1766EF3D0 /* PPOTOAuth2AppSwitchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPOTOAuth2AppSwitchRequest.m; path = BraintreePayPal/PayPalOneTouch/Models/PPOTOAuth2AppSwitchRequest.m; sourceTree = "<group>"; };
 		8892DF6FCFFAEA3939822CF5B5F1F953 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		88A70D3A15F982C6B438A5DE5D3A7993 /* FBSDKAudioResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAudioResourceLoader.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKAudioResourceLoader.h; sourceTree = "<group>"; };
@@ -1763,7 +1768,6 @@
 		9A696DBA58A6FB811641CBA5BDA9F4DF /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = da.lproj; path = BraintreeUIKit/Localization/da.lproj; sourceTree = "<group>"; };
 		9A952CE09DA0FCE0F7445CED978B18C2 /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
 		9ADE6DA3FDA56801087E531386DD4B99 /* FBSDKCodelessIndexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKCodelessIndexer.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKCodelessIndexer.h; sourceTree = "<group>"; };
-		9B038161D325F9AB736FE4209A627E06 /* Pods-iDonate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iDonate.release.xcconfig"; sourceTree = "<group>"; };
 		9B1A92DB9A41E214BE9A7F82AA49DF80 /* BTAuthenticationInsight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAuthenticationInsight.m; path = BraintreeCard/BTAuthenticationInsight.m; sourceTree = "<group>"; };
 		9B497EEF64E1A24CA8570A3C5308A450 /* AccessToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessToken.swift; path = FBSDKCoreKit/FBSDKCoreKit/Swift/AccessToken.swift; sourceTree = "<group>"; };
 		9BEF8AF2D471399EBC48AAE35F935D35 /* PPOTTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPOTTime.m; path = BraintreePayPal/PayPalUtils/PPOTTime.m; sourceTree = "<group>"; };
@@ -1792,8 +1796,6 @@
 		A11489CA6FD1680B16900232D34A03F3 /* BTUIKLargeApplePayMarkVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeApplePayMarkVectorArtView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeApplePayMarkVectorArtView.m"; sourceTree = "<group>"; };
 		A1350F7D44CC8558EBA1DB639690A282 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		A147A8F2ECE5B6C42E81CDA6D46830CE /* FBSDKModalFormPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKModalFormPresentationController.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Device/FBSDKModalFormPresentationController.m; sourceTree = "<group>"; };
-		A1494C150CF710E87FC2331246FF08C0 /* Pods-iDonate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iDonate-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A19B6A601A41D788C4F1E3467D9A5E58 /* Pods-iDonate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iDonate.modulemap"; sourceTree = "<group>"; };
 		A1A4CC817B8B193702FC48DE3C3F8727 /* OIDClientMetadataParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDClientMetadataParameters.h; path = Source/AppAuthCore/OIDClientMetadataParameters.h; sourceTree = "<group>"; };
 		A1AC0AE5C1800BCBADB0DFD2953231AE /* BTConfiguration+PayPal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BTConfiguration+PayPal.m"; path = "BraintreePayPal/BTConfiguration+PayPal.m"; sourceTree = "<group>"; };
 		A200D906C8ACA6F22681AD2440E7F1D4 /* FBSDKBridgeAPIProtocolWebV1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKBridgeAPIProtocolWebV1.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/ProtocolVersions/FBSDKBridgeAPIProtocolWebV1.h; sourceTree = "<group>"; };
@@ -1880,7 +1882,6 @@
 		B9EB0103816137567303CFA8B9F75FD9 /* FBSDKMonitorHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKMonitorHeaders.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKMonitorHeaders.h; sourceTree = "<group>"; };
 		BA19DDEF026AAC317F3B1426732991BF /* OIDAuthStateChangeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthStateChangeDelegate.h; path = Source/AppAuthCore/OIDAuthStateChangeDelegate.h; sourceTree = "<group>"; };
 		BA3E49BBFB26C8498EEA234359F87D73 /* BTDropInResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTDropInResult.m; path = BraintreeDropIn/Models/BTDropInResult.m; sourceTree = "<group>"; };
-		BA5B8A3BA72F5498EB9C64A1470171B6 /* Pods-iDonate-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iDonate-resources.sh"; sourceTree = "<group>"; };
 		BA8E146478E9EF857354382455191C4C /* FBSDKDeviceUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKDeviceUtilities.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Device/FBSDKDeviceUtilities.h; sourceTree = "<group>"; };
 		BAA5C0814A94C39AECFB5C5CBC539C25 /* BTUIKPayPalWordmarkVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKPayPalWordmarkVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKPayPalWordmarkVectorArtView.m"; sourceTree = "<group>"; };
 		BB31A43E6A93438F2D86CDF91BEBD4B3 /* BTPreferredPaymentMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPreferredPaymentMethods.h; path = BraintreeCore/Public/BTPreferredPaymentMethods.h; sourceTree = "<group>"; };
@@ -1889,7 +1890,6 @@
 		BB7594F730DF94864381C879A099E126 /* FBSDKAppLinkNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAppLinkNavigation.h; path = FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkNavigation.h; sourceTree = "<group>"; };
 		BB8DFF6D053F870D80518106290BCB6B /* FBSDKAccessTokenExpirer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAccessTokenExpirer.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKAccessTokenExpirer.h; sourceTree = "<group>"; };
 		BBBCF941FDF2B316F3446212819120A9 /* BTUIKLargeApplePayMarkVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeApplePayMarkVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeApplePayMarkVectorArtView.h"; sourceTree = "<group>"; };
-		BBEC1D74ABF4065417A6519F700A3E55 /* Pods-iDonate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iDonate-dummy.m"; sourceTree = "<group>"; };
 		BC20D25C1FAF7A8EB87F88CC2BC1F97B /* FBSDKAppLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKAppLink.m; path = FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLink.m; sourceTree = "<group>"; };
 		BC35BB21889594EFD58F494D90947A2C /* FBSDKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKIcon.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKIcon.h; sourceTree = "<group>"; };
 		BC790CB1535CA69543B57C96A6001F47 /* BraintreeDropIn-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BraintreeDropIn-prefix.pch"; sourceTree = "<group>"; };
@@ -1936,7 +1936,6 @@
 		C622BFCFBA91B345FD3D53548FDC2602 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Pod/Classes/Extensions.swift; sourceTree = "<group>"; };
 		C664F8A8C3F66F7160E00B0C4EDCF771 /* FBSDKMonitorNetworker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKMonitorNetworker.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKMonitorNetworker.m; sourceTree = "<group>"; };
 		C67E9D0F0861B0EF11127E6042D16871 /* OIDExternalUserAgentIOSCustomBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentIOSCustomBrowser.h; path = Source/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.h; sourceTree = "<group>"; };
-		C6E2A4C3C236E8002CF8264612F147D6 /* Pods-iDonate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iDonate-umbrella.h"; sourceTree = "<group>"; };
 		C6F791B3EDC671AB868ED94B89D9C419 /* BTKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTKeychain.h; path = BraintreeCore/BTKeychain.h; sourceTree = "<group>"; };
 		C717A724737EE56E62923893FE8FB1CC /* FBSDKGraphErrorRecoveryProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKGraphErrorRecoveryProcessor.m; path = FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphErrorRecoveryProcessor.m; sourceTree = "<group>"; };
 		C7284034DAB7CA48C7DB7B3B02D978FD /* PPOTRequestFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPOTRequestFactory.m; path = BraintreePayPal/PayPalOneTouch/Models/PPOTRequestFactory.m; sourceTree = "<group>"; };
@@ -1960,7 +1959,6 @@
 		CB70A9843CB672FD7932EC86F7D74C88 /* FBSDKMeasurementEvent_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKMeasurementEvent_Internal.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKMeasurementEvent_Internal.h; sourceTree = "<group>"; };
 		CB8929F9D50143542A83C17141923749 /* BTPaymentFlowDriver+LocalPayment_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BTPaymentFlowDriver+LocalPayment_Internal.h"; path = "BraintreePaymentFlow/LocalPayment/BTPaymentFlowDriver+LocalPayment_Internal.h"; sourceTree = "<group>"; };
 		CB90EB6240A08D76F896FE5672A3567D /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
-		CBB9F2BD1030B409066A5C5296BAE3CC /* Pods-iDonate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iDonate.debug.xcconfig"; sourceTree = "<group>"; };
 		CBBD63D6827B46CCEC6943F7610A7C07 /* BTPaymentFlowDriver+LocalPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BTPaymentFlowDriver+LocalPayment.h"; path = "BraintreePaymentFlow/Public/LocalPayment/BTPaymentFlowDriver+LocalPayment.h"; sourceTree = "<group>"; };
 		CBE1A90EB0D36C29DD59F6E200964CBD /* BTThreeDSecureLookup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTThreeDSecureLookup.h; path = BraintreePaymentFlow/Public/ThreeDSecure/BTThreeDSecureLookup.h; sourceTree = "<group>"; };
 		CC2E7CBCE3BCB93EC3F38EBF2BE77E6D /* Initializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initializable.swift; path = Pod/Classes/Initializable.swift; sourceTree = "<group>"; };
@@ -2002,6 +2000,7 @@
 		D44987F1C1CBD568AB12CA5E5818D8EB /* TKFormTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKFormTextField-Info.plist"; sourceTree = "<group>"; };
 		D4C81AC222C1CA373A895B4A1BDA9A3A /* BTAuthenticationInsight_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAuthenticationInsight_Internal.h; path = BraintreeCard/BTAuthenticationInsight_Internal.h; sourceTree = "<group>"; };
 		D52BE538C39715823F33A7FBFBF3BCD2 /* FBSDKWebDialogView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKWebDialogView.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/WebDialog/FBSDKWebDialogView.m; sourceTree = "<group>"; };
+		D5375D4D0436718B0242873A584B4B74 /* Pods-i2~Donate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-i2~Donate-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D58CCAD39487EA03616FE62C663237B0 /* PPDefaultConfigurationJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPDefaultConfigurationJSON.h; path = BraintreePayPal/PayPalOneTouch/Configuration/PPDefaultConfigurationJSON.h; sourceTree = "<group>"; };
 		D5DC342FD6A60F08AC0EF4A17B4C9147 /* BTPaymentFlowRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPaymentFlowRequest.h; path = BraintreePaymentFlow/Public/BTPaymentFlowRequest.h; sourceTree = "<group>"; };
 		D5EADEACF1B0A5AE6D79E3E478424D8C /* BTUIKDinersClubVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKDinersClubVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKDinersClubVectorArtView.h"; sourceTree = "<group>"; };
@@ -2104,6 +2103,7 @@
 		EC07EAB2A988943F10CD3776044B72F2 /* OIDRegistrationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDRegistrationRequest.h; path = Source/AppAuthCore/OIDRegistrationRequest.h; sourceTree = "<group>"; };
 		EC87D50B958F8857D4663AFE767817C5 /* BTUIKCardVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKCardVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKCardVectorArtView.m"; sourceTree = "<group>"; };
 		EC8F4D0BE3B0C192EBA4A93F8887D89F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSDKCoreKit.framework; path = FBSDKCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDA4E9B3104EF876EBC637078C4CAE2 /* Pods-i2~Donate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-i2~Donate.debug.xcconfig"; sourceTree = "<group>"; };
 		ECEA4A28D59E23B2BF156033E2AB91C7 /* PPFPTITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPFPTITracker.h; path = BraintreePayPal/PayPalOneTouch/Analytics/PPFPTITracker.h; sourceTree = "<group>"; };
 		ECFAC9CC984C7CB1F31B146893BFF742 /* _FBSDKLoginRecoveryAttempter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _FBSDKLoginRecoveryAttempter.h; path = FBSDKLoginKit/FBSDKLoginKit/Internal/_FBSDKLoginRecoveryAttempter.h; sourceTree = "<group>"; };
 		ED542A0CE2C2727E01FBD05BF25DBE2B /* TKFormTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKFormTextField-dummy.m"; sourceTree = "<group>"; };
@@ -2171,6 +2171,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1270F9B04107CE9B875C1E17403C47B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C3622D72E45A64C05E7579D0D089B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16CF22217BEA907AC6550A5C485822F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2187,14 +2195,6 @@
 				A601994621C892656F60D1A1292A9565 /* CoreGraphics.framework in Frameworks */,
 				FF0EE7E6F869E55DA268F25622674EB9 /* Foundation.framework in Frameworks */,
 				64F46B6A8DBA885AF570A54A082D1BAA /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F4CA73794C5D2F9B5BBF127F59FBF17 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8133F62FD0DB6D437F8F0F7C304B819B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2366,6 +2366,28 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		1257E124B073AD5428981548D631A033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage.framework */,
+				D2883ADA77FDCE8B81F2C5DDAD66578F /* AlamofireNetworkActivityIndicator.framework */,
+				3FD1B4C1246D643E9476438C28048FA8 /* AppAuth.framework */,
+				DCC59F6B7226FC9D0C772582FCD958DB /* Braintree.framework */,
+				2AC353DB123C0992FD1EC6B9BF588497 /* Braintree-UIKit-Localization.bundle */,
+				2749F48F16E496078836D3E9AEE8F1E0 /* BraintreeDropIn.framework */,
+				EC8F4D0BE3B0C192EBA4A93F8887D89F /* FBSDKCoreKit.framework */,
+				5DE0FEFC3995E740EC1AE2611D0AEFB0 /* FBSDKLoginKit.framework */,
+				6FD122EA0AB9AB2A8FFA5F676C795DF0 /* GTMAppAuth.framework */,
+				C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				0A61027E11AA4418D00A05E2F84A635E /* Pods_i2_Donate.framework */,
+				319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */,
+				EA99E09F39FBFC0EAB9389A1A3BFF986 /* TKFormTextField.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		134E12CF1C6DC0F1686436A66C2EEB84 /* Support Files */ = {
@@ -3464,6 +3486,14 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		A92707977A1990ED6688E9CE9F3377C7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B982AE2D96968C23F477AC7632AB8499 /* Pods-i2~Donate */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		AEF477CC382491B5FFCE2489D83FED67 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -3542,6 +3572,24 @@
 			);
 			name = AlamofireImage;
 			path = AlamofireImage;
+			sourceTree = "<group>";
+		};
+		B982AE2D96968C23F477AC7632AB8499 /* Pods-i2~Donate */ = {
+			isa = PBXGroup;
+			children = (
+				35B95AB3749D9B08F956AFCD3F0A373A /* Pods-i2~Donate.modulemap */,
+				D5375D4D0436718B0242873A584B4B74 /* Pods-i2~Donate-acknowledgements.markdown */,
+				2D97ECFB05B604AA03CA043C7B7DF180 /* Pods-i2~Donate-acknowledgements.plist */,
+				1CBE9C87CE7890D859692576C4583EC6 /* Pods-i2~Donate-dummy.m */,
+				25AA5DA3E1393E470D8E04F3DD93C8D5 /* Pods-i2~Donate-frameworks.sh */,
+				2C9AC950D8F9984C245A955FE809DE55 /* Pods-i2~Donate-Info.plist */,
+				2E0324DC2E5739E511E1A68953F3F639 /* Pods-i2~Donate-resources.sh */,
+				87DE90DD7B2B8DDB6E5CB43C84EACE93 /* Pods-i2~Donate-umbrella.h */,
+				ECDA4E9B3104EF876EBC637078C4CAE2 /* Pods-i2~Donate.debug.xcconfig */,
+				7A110D7AFD82D2914B710A9721EB7A02 /* Pods-i2~Donate.release.xcconfig */,
+			);
+			name = "Pods-i2~Donate";
+			path = "Target Support Files/Pods-i2~Donate";
 			sourceTree = "<group>";
 		};
 		BA83B644A0F1B983144847CAC8463178 /* Frameworks */ = {
@@ -3657,28 +3705,6 @@
 			name = PayPalOneTouch;
 			sourceTree = "<group>";
 		};
-		C19F2403C427A2A12D40733458ECFEA1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage.framework */,
-				D2883ADA77FDCE8B81F2C5DDAD66578F /* AlamofireNetworkActivityIndicator.framework */,
-				3FD1B4C1246D643E9476438C28048FA8 /* AppAuth.framework */,
-				DCC59F6B7226FC9D0C772582FCD958DB /* Braintree.framework */,
-				2AC353DB123C0992FD1EC6B9BF588497 /* Braintree-UIKit-Localization.bundle */,
-				2749F48F16E496078836D3E9AEE8F1E0 /* BraintreeDropIn.framework */,
-				EC8F4D0BE3B0C192EBA4A93F8887D89F /* FBSDKCoreKit.framework */,
-				5DE0FEFC3995E740EC1AE2611D0AEFB0 /* FBSDKLoginKit.framework */,
-				6FD122EA0AB9AB2A8FFA5F676C795DF0 /* GTMAppAuth.framework */,
-				C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher.framework */,
-				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
-				64A03DC28B78C3B801E6699296FA5DDB /* Pods_iDonate.framework */,
-				319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */,
-				EA99E09F39FBFC0EAB9389A1A3BFF986 /* TKFormTextField.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		C642591C63F94209D011587146954A5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -3708,8 +3734,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				BA83B644A0F1B983144847CAC8463178 /* Frameworks */,
 				F60F2508A2B2ECF59E2FE8F014086E0E /* Pods */,
-				C19F2403C427A2A12D40733458ECFEA1 /* Products */,
-				FB0D629CE2C08C7AA2F6A2957C6847FE /* Targets Support Files */,
+				1257E124B073AD5428981548D631A033 /* Products */,
+				A92707977A1990ED6688E9CE9F3377C7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -3803,24 +3829,6 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
-		EDE3768896D1E3B1B2009E0E55F084C7 /* Pods-iDonate */ = {
-			isa = PBXGroup;
-			children = (
-				A19B6A601A41D788C4F1E3467D9A5E58 /* Pods-iDonate.modulemap */,
-				A1494C150CF710E87FC2331246FF08C0 /* Pods-iDonate-acknowledgements.markdown */,
-				3813C051EED7E2DECE4782A695931CC7 /* Pods-iDonate-acknowledgements.plist */,
-				BBEC1D74ABF4065417A6519F700A3E55 /* Pods-iDonate-dummy.m */,
-				57634C082EF12F4C43B26EACAD2B1981 /* Pods-iDonate-frameworks.sh */,
-				13643629DFEEBB0B21857F82822FE1D9 /* Pods-iDonate-Info.plist */,
-				BA5B8A3BA72F5498EB9C64A1470171B6 /* Pods-iDonate-resources.sh */,
-				C6E2A4C3C236E8002CF8264612F147D6 /* Pods-iDonate-umbrella.h */,
-				CBB9F2BD1030B409066A5C5296BAE3CC /* Pods-iDonate.debug.xcconfig */,
-				9B038161D325F9AB736FE4209A627E06 /* Pods-iDonate.release.xcconfig */,
-			);
-			name = "Pods-iDonate";
-			path = "Target Support Files/Pods-iDonate";
-			sourceTree = "<group>";
-		};
 		F058B026B14F3130EFCEA6B06C71C172 /* Full */ = {
 			isa = PBXGroup;
 			children = (
@@ -3869,14 +3877,6 @@
 				17E4645E6962314746586D2DA0D66BEA /* TKFormTextField */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		FB0D629CE2C08C7AA2F6A2957C6847FE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EDE3768896D1E3B1B2009E0E55F084C7 /* Pods-iDonate */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -4084,14 +4084,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BDD352F4200AFAC84EF8511C14FE446 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74AFF098964B91D3931295C3934A945B /* Pods-iDonate-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8070B01910C64B9AFD0DB550EDE38D6B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -4114,6 +4106,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0876E17D41D87092799F1A77AFE4BC46 /* AlamofireNetworkActivityIndicator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94522B2B008901C707B4C1EE77BDFAF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA812D5F3F42BA21194AAAC01F87740 /* Pods-i2~Donate-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4468,6 +4468,40 @@
 			productReference = 2749F48F16E496078836D3E9AEE8F1E0 /* BraintreeDropIn.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		244FA03F8A57CB71A5912187A85F1CA2 /* Pods-i2~Donate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA84E30FF06FC3C218C3D4E2423B9E4 /* Build configuration list for PBXNativeTarget "Pods-i2~Donate" */;
+			buildPhases = (
+				94522B2B008901C707B4C1EE77BDFAF9 /* Headers */,
+				34BA7937C487E010487708F7C3F5DB59 /* Sources */,
+				1270F9B04107CE9B875C1E17403C47B1 /* Frameworks */,
+				3E187860F8A697686026C7E18DE3DF98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9509A3E4A0341D93607D05221BBF3D00 /* PBXTargetDependency */,
+				00B2CB9CE87A0410DFE000D58BDFFD75 /* PBXTargetDependency */,
+				DDECF870434FBDEDD1FFE295B4A28398 /* PBXTargetDependency */,
+				3001A8DC8B1A8B2A1D6B04D6005DB2DF /* PBXTargetDependency */,
+				B1F963DC189E549454DFE3A31B03CDE4 /* PBXTargetDependency */,
+				D0A5E80C7D9CA9FEB0C9F65D94B6FE04 /* PBXTargetDependency */,
+				BA97113722DA4D158B8087624AE89428 /* PBXTargetDependency */,
+				0A63B2AEC7DDB0B7AAA187BB9EC6BFC7 /* PBXTargetDependency */,
+				C3FABAF0B0ED954E989B7AF54CFE088A /* PBXTargetDependency */,
+				148155E7058D368C98765BB29D1D7A24 /* PBXTargetDependency */,
+				4F666168218596F2FFF4286C6075E390 /* PBXTargetDependency */,
+				35B70C418996CAC4AC63942BF37B3BA1 /* PBXTargetDependency */,
+				AB587F4C7CDB61A67E72213F82DFF730 /* PBXTargetDependency */,
+				FE489E1176EEAE33F2707C1AA34811E3 /* PBXTargetDependency */,
+				FF139032ECEF5D3731DF3D8EBEBCD882 /* PBXTargetDependency */,
+				3E037B261E613C200A9F8263FD66AC1D /* PBXTargetDependency */,
+			);
+			name = "Pods-i2~Donate";
+			productName = "Pods-i2~Donate";
+			productReference = 0A61027E11AA4418D00A05E2F84A635E /* Pods_i2_Donate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB5EEC8589BEC987362CB9F6C069987 /* Build configuration list for PBXNativeTarget "FBSDKCoreKit" */;
@@ -4557,40 +4591,6 @@
 			name = GTMAppAuth;
 			productName = GTMAppAuth;
 			productReference = 6FD122EA0AB9AB2A8FFA5F676C795DF0 /* GTMAppAuth.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		88AC44EDD618705934AEE11CFA9703CF /* Pods-iDonate */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 29BBC8B61CEC7F0A07E5DC7CC5266F1F /* Build configuration list for PBXNativeTarget "Pods-iDonate" */;
-			buildPhases = (
-				7BDD352F4200AFAC84EF8511C14FE446 /* Headers */,
-				29ADCC95462674F612E2D33FD8355E7F /* Sources */,
-				3F4CA73794C5D2F9B5BBF127F59FBF17 /* Frameworks */,
-				C65B54FDDAD52B95EA2C8902E31A03F9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0609A1C322197B0678D798088F3F12A1 /* PBXTargetDependency */,
-				731525BF070626E8CFE7BAD576986124 /* PBXTargetDependency */,
-				98524FC9D60FE86F43775453A64E2788 /* PBXTargetDependency */,
-				55F46A0AB0D644D6577B821DF29639C5 /* PBXTargetDependency */,
-				BA74377FFD3578B354A02FC469B91D6D /* PBXTargetDependency */,
-				21A58812F421569B5F56AC94559ED29B /* PBXTargetDependency */,
-				34541B735E87423A63433612A0E80CA0 /* PBXTargetDependency */,
-				701451C909479F2425A26BD7EE30FD42 /* PBXTargetDependency */,
-				7212F0085A52FBB964658C8F29781E4B /* PBXTargetDependency */,
-				41923F72BD29ABBAD97AA2E5577C8E1C /* PBXTargetDependency */,
-				3B1D2846348541868FCAB59BCE0641B3 /* PBXTargetDependency */,
-				97A598EFB67D21CE081C6F8869AE1F91 /* PBXTargetDependency */,
-				5F6DC886936937BF113A5652D146920F /* PBXTargetDependency */,
-				C19F4EF5D4BFF3D409A6EA024CC55412 /* PBXTargetDependency */,
-				223FB4D943FED8EADE63FFF81816970D /* PBXTargetDependency */,
-				1C3496187D48DCF6A58402246FC6C126 /* PBXTargetDependency */,
-			);
-			name = "Pods-iDonate";
-			productName = "Pods-iDonate";
-			productReference = 64A03DC28B78C3B801E6699296FA5DDB /* Pods_iDonate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8C796CDB90777AB5D92691D3F8F2DDA5 /* AlamofireNetworkActivityIndicator */ = {
@@ -4739,7 +4739,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C19F2403C427A2A12D40733458ECFEA1 /* Products */;
+			productRefGroup = 1257E124B073AD5428981548D631A033 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -4758,7 +4758,7 @@
 				8627999EF1D5E93E13DAFF580DA8CDCF /* GTMAppAuth */,
 				D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */,
 				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
-				88AC44EDD618705934AEE11CFA9703CF /* Pods-iDonate */,
+				244FA03F8A57CB71A5912187A85F1CA2 /* Pods-i2~Donate */,
 				C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */,
 				B61E5252055CCBA0F6EEAD4CE215A48D /* TKFormTextField */,
 			);
@@ -4789,6 +4789,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		338BBB964CADA76EE4FC5900CA0E2F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E187860F8A697686026C7E18DE3DF98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4872,13 +4879,6 @@
 				D6570E7A4BFB94651C9497F685E6FC4F /* zh-Hans.lproj in Resources */,
 				B45A2D1B6AF3A88147D764D6F2C84D59 /* zh-Hant-HK.lproj in Resources */,
 				BB94DB6A96EC97DEE04A1FA3F680FD75 /* zh-Hant.lproj in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C65B54FDDAD52B95EA2C8902E31A03F9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5027,14 +5027,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29ADCC95462674F612E2D33FD8355E7F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				77C68651583AF0F556BDF7918083E6CE /* Pods-iDonate-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5075,6 +5067,14 @@
 				D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */,
 				F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */,
 				F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BA7937C487E010487708F7C3F5DB59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10107A5D934F14510BE252A17F1C896 /* Pods-i2~Donate-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5427,17 +5427,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0609A1C322197B0678D798088F3F12A1 /* PBXTargetDependency */ = {
+		00B2CB9CE87A0410DFE000D58BDFFD75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 7A736FD11F64D30EAC7E470DBC411F09 /* PBXContainerItemProxy */;
+			name = AlamofireImage;
+			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
+			targetProxy = 5683CB9A51C7C296C7E97DEA05A16C14 /* PBXContainerItemProxy */;
 		};
-		1C3496187D48DCF6A58402246FC6C126 /* PBXTargetDependency */ = {
+		0A63B2AEC7DDB0B7AAA187BB9EC6BFC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = TKFormTextField;
-			target = B61E5252055CCBA0F6EEAD4CE215A48D /* TKFormTextField */;
-			targetProxy = 81DF16C24938D9127B61DF3578109F29 /* PBXContainerItemProxy */;
+			name = FBSDKLoginKit;
+			target = 10C5885FCB0908EF785774EE52473DAB /* FBSDKLoginKit */;
+			targetProxy = 3693F6DDBAF1E1970A149E5E748E46D7 /* PBXContainerItemProxy */;
+		};
+		148155E7058D368C98765BB29D1D7A24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */;
+			targetProxy = BD01B91E5C9983906E60D082A3E5DB96 /* PBXContainerItemProxy */;
 		};
 		208768C248A2E5DA64E00E8C3A4EE73E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5445,35 +5451,29 @@
 			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
 			targetProxy = D0EE93AD31F3D7868621287C3545F233 /* PBXContainerItemProxy */;
 		};
-		21A58812F421569B5F56AC94559ED29B /* PBXTargetDependency */ = {
+		3001A8DC8B1A8B2A1D6B04D6005DB2DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BraintreeDropIn;
-			target = 239150F002EFA3C206FCDF47B01A934C /* BraintreeDropIn */;
-			targetProxy = 77CED2B6E2CCDDC21E6CD4E80DC79144 /* PBXContainerItemProxy */;
+			name = AppAuth;
+			target = 5C642AA10FB29936669CC269F42079C6 /* AppAuth */;
+			targetProxy = 23845F935A3A9E034211CC940D92858F /* PBXContainerItemProxy */;
 		};
-		223FB4D943FED8EADE63FFF81816970D /* PBXTargetDependency */ = {
+		35B70C418996CAC4AC63942BF37B3BA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SideMenu;
-			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
-			targetProxy = E0912026E11938731152B7AA26EDB097 /* PBXContainerItemProxy */;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 8C923C3EA15B23D22D0AB00297BA4B45 /* PBXContainerItemProxy */;
 		};
-		34541B735E87423A63433612A0E80CA0 /* PBXTargetDependency */ = {
+		3E037B261E613C200A9F8263FD66AC1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FBSDKCoreKit;
-			target = 28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */;
-			targetProxy = F0915BC1D45CB6EFF5182977714A8595 /* PBXContainerItemProxy */;
+			name = TKFormTextField;
+			target = B61E5252055CCBA0F6EEAD4CE215A48D /* TKFormTextField */;
+			targetProxy = BF222DF29A228D71105668290940B7CB /* PBXContainerItemProxy */;
 		};
-		3B1D2846348541868FCAB59BCE0641B3 /* PBXTargetDependency */ = {
+		4F666168218596F2FFF4286C6075E390 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleMaps;
 			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
-			targetProxy = 1FFAF83243653ECC5DE010185BB3EDE8 /* PBXContainerItemProxy */;
-		};
-		41923F72BD29ABBAD97AA2E5577C8E1C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GTMSessionFetcher;
-			target = D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */;
-			targetProxy = 7BFB47D19182D552DEEE12D1D532CADA /* PBXContainerItemProxy */;
+			targetProxy = ED915BE17D6D82921FFF06B7BB287297 /* PBXContainerItemProxy */;
 		};
 		534FA04C012051B0C5453F3250C18E8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5481,23 +5481,11 @@
 			target = D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */;
 			targetProxy = 7A35EBC5145A1E281EE86E78C8BE4002 /* PBXContainerItemProxy */;
 		};
-		55F46A0AB0D644D6577B821DF29639C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AppAuth;
-			target = 5C642AA10FB29936669CC269F42079C6 /* AppAuth */;
-			targetProxy = BF73AE7DD92F7EFB7F10979907B63DC0 /* PBXContainerItemProxy */;
-		};
 		5E559C1E53ABEAFD0F6100EF8BC8DA15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GTMSessionFetcher;
 			target = D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */;
 			targetProxy = 0D3F4C7D0CA6B54A9A76689133F63834 /* PBXContainerItemProxy */;
-		};
-		5F6DC886936937BF113A5652D146920F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleSignIn;
-			target = CAD3534FC55B0333104E5117C0A9A324 /* GoogleSignIn */;
-			targetProxy = 10887F758D39D8814BC716038DF3C7F2 /* PBXContainerItemProxy */;
 		};
 		631DADD1335EF76134A9D97958A4E1B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5511,24 +5499,6 @@
 			target = 600973CE212C72CB2C3B7197A9B4CE18 /* BraintreeDropIn-Braintree-UIKit-Localization */;
 			targetProxy = 39D3B8F36372EA9A9D43BD2FB8A7C2CB /* PBXContainerItemProxy */;
 		};
-		701451C909479F2425A26BD7EE30FD42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSDKLoginKit;
-			target = 10C5885FCB0908EF785774EE52473DAB /* FBSDKLoginKit */;
-			targetProxy = 088A4EB5CD0745FF62FF2A1C21FE6188 /* PBXContainerItemProxy */;
-		};
-		7212F0085A52FBB964658C8F29781E4B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GTMAppAuth;
-			target = 8627999EF1D5E93E13DAFF580DA8CDCF /* GTMAppAuth */;
-			targetProxy = 4CE30DB6C2B995D851A13CEA2CC6ED37 /* PBXContainerItemProxy */;
-		};
-		731525BF070626E8CFE7BAD576986124 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AlamofireImage;
-			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
-			targetProxy = F41D6B340FA323ACDFAD17789F039940 /* PBXContainerItemProxy */;
-		};
 		74B5A3CE42657CA2ECAC8B07DAD0C803 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSDKCoreKit;
@@ -5541,11 +5511,11 @@
 			target = BAE8F711B8B7870AC224B3B1C5FB6540 /* Braintree */;
 			targetProxy = 0189B2FE86AC1142EF3FDE779C800258 /* PBXContainerItemProxy */;
 		};
-		97A598EFB67D21CE081C6F8869AE1F91 /* PBXTargetDependency */ = {
+		9509A3E4A0341D93607D05221BBF3D00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GooglePlaces;
-			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
-			targetProxy = 9CE7796FF60963C29108F5B6E0B41FB9 /* PBXContainerItemProxy */;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 60EC982FF42E29402E11D4D5F82686E4 /* PBXContainerItemProxy */;
 		};
 		97E46802877458D16E9945C96E1BC874 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5553,17 +5523,23 @@
 			target = 5C642AA10FB29936669CC269F42079C6 /* AppAuth */;
 			targetProxy = 2CF17CE5821A2B886FACC0F21F5050DF /* PBXContainerItemProxy */;
 		};
-		98524FC9D60FE86F43775453A64E2788 /* PBXTargetDependency */ = {
+		AB587F4C7CDB61A67E72213F82DFF730 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AlamofireNetworkActivityIndicator;
-			target = 8C796CDB90777AB5D92691D3F8F2DDA5 /* AlamofireNetworkActivityIndicator */;
-			targetProxy = FB11C3C1A7C0A22AE4E16CA90A617F25 /* PBXContainerItemProxy */;
+			name = GoogleSignIn;
+			target = CAD3534FC55B0333104E5117C0A9A324 /* GoogleSignIn */;
+			targetProxy = 82E30764A2D2CA7E48DBFA370F7C6FD6 /* PBXContainerItemProxy */;
 		};
-		BA74377FFD3578B354A02FC469B91D6D /* PBXTargetDependency */ = {
+		B1F963DC189E549454DFE3A31B03CDE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Braintree;
 			target = BAE8F711B8B7870AC224B3B1C5FB6540 /* Braintree */;
-			targetProxy = 9436CA20EC3704AE1D0E17956F150485 /* PBXContainerItemProxy */;
+			targetProxy = F6F4C2506F8735C48DA4D134926D498E /* PBXContainerItemProxy */;
+		};
+		BA97113722DA4D158B8087624AE89428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit;
+			target = 28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */;
+			targetProxy = AAD770100466490745E43C0BB90A9902 /* PBXContainerItemProxy */;
 		};
 		BD4769ED564E37B3356BFF094E831042 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5571,11 +5547,11 @@
 			target = 8627999EF1D5E93E13DAFF580DA8CDCF /* GTMAppAuth */;
 			targetProxy = 8E29B15AA56D67FBD3F42BC041FA8F8E /* PBXContainerItemProxy */;
 		};
-		C19F4EF5D4BFF3D409A6EA024CC55412 /* PBXTargetDependency */ = {
+		C3FABAF0B0ED954E989B7AF54CFE088A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 089C927E6593349C933C39228E6128E3 /* PBXContainerItemProxy */;
+			name = GTMAppAuth;
+			target = 8627999EF1D5E93E13DAFF580DA8CDCF /* GTMAppAuth */;
+			targetProxy = F1DFA5A6F85DD2C8F6B35F565ADA9E85 /* PBXContainerItemProxy */;
 		};
 		CE85EA32697EDC1E7B4F7E8B03A9BDE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5583,11 +5559,35 @@
 			target = 5C642AA10FB29936669CC269F42079C6 /* AppAuth */;
 			targetProxy = 63F575D4D35B083B4B479E7EF7A9FCE8 /* PBXContainerItemProxy */;
 		};
+		D0A5E80C7D9CA9FEB0C9F65D94B6FE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BraintreeDropIn;
+			target = 239150F002EFA3C206FCDF47B01A934C /* BraintreeDropIn */;
+			targetProxy = 5F46F8F89EA125D35ED38977E9BC597A /* PBXContainerItemProxy */;
+		};
+		DDECF870434FBDEDD1FFE295B4A28398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireNetworkActivityIndicator;
+			target = 8C796CDB90777AB5D92691D3F8F2DDA5 /* AlamofireNetworkActivityIndicator */;
+			targetProxy = 59BFCA0C4244519B002A1505A4D39242 /* PBXContainerItemProxy */;
+		};
 		F81506BAD503C586C65D030ACDBFA2B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
 			targetProxy = D6898A3152907208317B524645F0E51C /* PBXContainerItemProxy */;
+		};
+		FE489E1176EEAE33F2707C1AA34811E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 903B367824930D017760311836ED46B8 /* PBXContainerItemProxy */;
+		};
+		FF139032ECEF5D3731DF3D8EBEBCD882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
+			targetProxy = 4607BC3C02B2F3C01C577913B98FD4E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -5622,6 +5622,45 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0923186CF57C9A81236F3DF5E2E3D215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A110D7AFD82D2914B710A9721EB7A02 /* Pods-i2~Donate.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-i2~Donate/Pods-i2~Donate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-i2~Donate/Pods-i2~Donate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -5837,44 +5876,6 @@
 			};
 			name = Release;
 		};
-		3A1E999240EC7A3DDE0C457279E13157 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB9F2BD1030B409066A5C5296BAE3CC /* Pods-iDonate.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iDonate/Pods-iDonate-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iDonate/Pods-iDonate.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		40DDD86542BE2C429DE2D5BC637CA51D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD6094F17C70B2ECCA137F9EF5277499 /* MBProgressHUD.release.xcconfig */;
@@ -6032,6 +6033,44 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59FF42B2A569DD095B1E0B13310FB217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDA4E9B3104EF876EBC637078C4CAE2 /* Pods-i2~Donate.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-i2~Donate/Pods-i2~Donate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-i2~Donate/Pods-i2~Donate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -6640,45 +6679,6 @@
 			};
 			name = Debug;
 		};
-		EC41F98351AA5EDD040DDD492CB3DA28 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B038161D325F9AB736FE4209A627E06 /* Pods-iDonate.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iDonate/Pods-iDonate-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iDonate/Pods-iDonate.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F612EF94A7DB77BEC9A01721B62A809E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B91DB95D1266FE4611DF53AD3E5141DA /* GooglePlaces.debug.xcconfig */;
@@ -6885,11 +6885,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29BBC8B61CEC7F0A07E5DC7CC5266F1F /* Build configuration list for PBXNativeTarget "Pods-iDonate" */ = {
+		3EA84E30FF06FC3C218C3D4E2423B9E4 /* Build configuration list for PBXNativeTarget "Pods-i2~Donate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A1E999240EC7A3DDE0C457279E13157 /* Debug */,
-				EC41F98351AA5EDD040DDD492CB3DA28 /* Release */,
+				59FF42B2A569DD095B1E0B13310FB217 /* Debug */,
+				0923186CF57C9A81236F3DF5E2E3D215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

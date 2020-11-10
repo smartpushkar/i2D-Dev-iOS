@@ -80,7 +80,6 @@
 		3FC72DE522706C41004B2FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC72DE422706C41004B2FB3 /* AppDelegate.swift */; };
 		3FC72DE722706C41004B2FB3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC72DE622706C41004B2FB3 /* BaseViewController.swift */; };
 		3FC72DEA22706C41004B2FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC72DE822706C41004B2FB3 /* Main.storyboard */; };
-		3FC72DEC22706C62004B2FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC72DEB22706C62004B2FB3 /* Assets.xcassets */; };
 		3FC72DEF22706C62004B2FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC72DED22706C62004B2FB3 /* LaunchScreen.storyboard */; };
 		3FC72DF7227074E3004B2FB3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC72DF6227074E3004B2FB3 /* HomeVC.swift */; };
 		3FC78DB8229FB42B00ED1804 /* iDonate.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FC78DB7229FB42B00ED1804 /* iDonate.plist */; };
@@ -100,13 +99,14 @@
 		3FFAD64E22EACB6A00D6F197 /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAD64D22EACB6A00D6F197 /* ForgotVC.swift */; };
 		3FFAD65022EACF8F00D6F197 /* VerifyOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAD64F22EACF8F00D6F197 /* VerifyOTP.swift */; };
 		3FFAD65322EB32C000D6F197 /* CardPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAD65222EB32BE00D6F197 /* CardPaymentVC.swift */; };
+		732D18C1255AE9DA0039AD71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC72DEB22706C62004B2FB3 /* Assets.xcassets */; };
 		73D6A88425458D6300CAD41C /* MyDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D6A88325458D6300CAD41C /* MyDonationsViewController.swift */; };
 		73D6A8872545925A00CAD41C /* TransactionHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D6A8862545925A00CAD41C /* TransactionHistoryTableViewCell.swift */; };
 		93267744227F08BB00FE65F0 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93267743227F08BB00FE65F0 /* MenuVC.swift */; };
 		932A2DD1227E20F4005BBBDB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932A2DD0227E20F4005BBBDB /* LoginVC.swift */; };
 		932A2DD3227E278E005BBBDB /* iDonateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932A2DD2227E278E005BBBDB /* iDonateClass.swift */; };
 		937069DE227CC87500E30220 /* customview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937069DD227CC87500E30220 /* customview.swift */; };
-		99FA2BC3AD93EEE9966F95DF /* Pods_iDonate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8115822F6360572B245BD86D /* Pods_iDonate.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F46F1ECCEB3A41ADB1926E49 /* Pods_i2_Donate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE6F74D3217072890CA8DCB /* Pods_i2_Donate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,18 +123,17 @@
 		1B533672249C73E400D9C622 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1B533674249C73ED00D9C622 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		1B533676249C73F900D9C622 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		1B533678249C74A800D9C622 /* iDonate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDonate-Bridging-Header.h"; sourceTree = "<group>"; };
 		1B5C6CB024A0C8E2008A3D1F /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
 		1B64A9F124A7114C00BFF257 /* SubTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTypesViewController.swift; sourceTree = "<group>"; };
 		1B6E7ABB24A369FD00DA0949 /* GooglePlaceSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlaceSearchViewController.swift; sourceTree = "<group>"; };
 		1B7AEA072495E3CA0033C92C /* UIViewcontroller+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewcontroller+Extensions.swift"; sourceTree = "<group>"; };
 		1B7AEA082495E3CA0033C92C /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		1BD556AC24B5B0D4001D616F /* iDonate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iDonate.entitlements; sourceTree = "<group>"; };
 		1BD556AD24B5F85F001D616F /* ProcessingChargesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingChargesView.swift; sourceTree = "<group>"; };
 		1BD556B124B840D2001D616F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1BD556B324B840DD001D616F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		1BD556B524B840E7001D616F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1BD556B724B84105001D616F /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		32190EED7EE93AE85F2ED8E6 /* Pods-i2~Donate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-i2~Donate.release.xcconfig"; path = "Pods/Target Support Files/Pods-i2~Donate/Pods-i2~Donate.release.xcconfig"; sourceTree = "<group>"; };
 		3F016E0C228A8F1400F91FAC /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 		3F05ADAF233DEA3B0088734C /* ParentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentModel.swift; path = StaticModel/ParentModel.swift; sourceTree = "<group>"; };
 		3F05ADB0233DEA3B0088734C /* ChildModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildModel.swift; path = StaticModel/ChildModel.swift; sourceTree = "<group>"; };
@@ -200,7 +199,6 @@
 		3FC983A922A141A30096C5EB /* CountryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListVC.swift; sourceTree = "<group>"; };
 		3FC983AD22A14F460096C5EB /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 		3FCB07C622A65270003504D6 /* TKDataValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKDataValidator.swift; sourceTree = "<group>"; };
-		3FD094AF229D35800014EF70 /* iDonate-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iDonate-Bridging-Header.h"; sourceTree = "<group>"; };
 		3FD9439122A91E7600951294 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
 		3FD9439422A9418800951294 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		3FDB285922818E3000E0F946 /* iDonatecolor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonatecolor.swift; sourceTree = "<group>"; };
@@ -212,11 +210,12 @@
 		3FFAD65222EB32BE00D6F197 /* CardPaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPaymentVC.swift; sourceTree = "<group>"; };
 		73D6A88325458D6300CAD41C /* MyDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDonationsViewController.swift; sourceTree = "<group>"; };
 		73D6A8862545925A00CAD41C /* TransactionHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryTableViewCell.swift; sourceTree = "<group>"; };
-		8115822F6360572B245BD86D /* Pods_iDonate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDonate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93267743227F08BB00FE65F0 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		932A2DD0227E20F4005BBBDB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		932A2DD2227E278E005BBBDB /* iDonateClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonateClass.swift; sourceTree = "<group>"; };
 		937069DD227CC87500E30220 /* customview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customview.swift; sourceTree = "<group>"; };
+		9464C26A0937DF0E9AB9C8C4 /* Pods-i2~Donate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-i2~Donate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-i2~Donate/Pods-i2~Donate.debug.xcconfig"; sourceTree = "<group>"; };
+		9AE6F74D3217072890CA8DCB /* Pods_i2_Donate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_i2_Donate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9306ADCBC0B425CD136E10 /* Pods-iDonate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDonate.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDonate/Pods-iDonate.release.xcconfig"; sourceTree = "<group>"; };
 		C53C20DB7F85B1BC4C4B57FC /* Pods-iDonate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDonate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iDonate/Pods-iDonate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -237,8 +236,8 @@
 				1BD556B624B840E7001D616F /* Foundation.framework in Frameworks */,
 				1B533667249C739E00D9C622 /* Accelerate.framework in Frameworks */,
 				1BD556B224B840D2001D616F /* CoreGraphics.framework in Frameworks */,
-				99FA2BC3AD93EEE9966F95DF /* Pods_iDonate.framework in Frameworks */,
 				1BD556B424B840DD001D616F /* CoreVideo.framework in Frameworks */,
+				F46F1ECCEB3A41ADB1926E49 /* Pods_i2_Donate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +275,8 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = Model;
+			name = Model;
+			path = iDonate/Model;
 			sourceTree = "<group>";
 		};
 		3F0D7C0322896E6600345E4B /* View */ = {
@@ -483,25 +483,8 @@
 		3FC72DD822706C40004B2FB3 = {
 			isa = PBXGroup;
 			children = (
+				3FC72DEB22706C62004B2FB3 /* Assets.xcassets */,
 				3FC72DE322706C40004B2FB3 /* iDonate */,
-				3FC72DE222706C40004B2FB3 /* Products */,
-				B0273FB78EC9C715856F2164 /* Pods */,
-				E975D09D9C36EB0D45823755 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		3FC72DE222706C40004B2FB3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3FC72DE122706C40004B2FB3 /* i2~Donate.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3FC72DE322706C40004B2FB3 /* iDonate */ = {
-			isa = PBXGroup;
-			children = (
-				1BD556AC24B5B0D4001D616F /* iDonate.entitlements */,
 				1B5C6CB024A0C8E2008A3D1F /* TermsAndConditionsViewController.swift */,
 				1B41CA5B249E084400839F65 /* TwitterWebViewController.swift */,
 				1B41CA59249E06EC00839F65 /* Extensions.swift */,
@@ -533,9 +516,24 @@
 				3FDB285822818DF300E0F946 /* Helper */,
 				3FC72DE422706C41004B2FB3 /* AppDelegate.swift */,
 				3F0D7C052289802400345E4B /* Menu */,
-				3FC72DEB22706C62004B2FB3 /* Assets.xcassets */,
+				3FC72DE222706C40004B2FB3 /* Products */,
+				B0273FB78EC9C715856F2164 /* Pods */,
+				E975D09D9C36EB0D45823755 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC72DE222706C40004B2FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC72DE122706C40004B2FB3 /* i2~Donate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC72DE322706C40004B2FB3 /* iDonate */ = {
+			isa = PBXGroup;
+			children = (
 				3FC72DF022706C62004B2FB3 /* Info.plist */,
-				1B533678249C74A800D9C622 /* iDonate-Bridging-Header.h */,
 			);
 			path = iDonate;
 			sourceTree = "<group>";
@@ -601,7 +599,6 @@
 				3FD9439122A91E7600951294 /* UserDetails.swift */,
 				937069DD227CC87500E30220 /* customview.swift */,
 				3FDB285922818E3000E0F946 /* iDonatecolor.swift */,
-				3FD094AF229D35800014EF70 /* iDonate-Bridging-Header.h */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -648,6 +645,8 @@
 			children = (
 				C53C20DB7F85B1BC4C4B57FC /* Pods-iDonate.debug.xcconfig */,
 				AC9306ADCBC0B425CD136E10 /* Pods-iDonate.release.xcconfig */,
+				9464C26A0937DF0E9AB9C8C4 /* Pods-i2~Donate.debug.xcconfig */,
+				32190EED7EE93AE85F2ED8E6 /* Pods-i2~Donate.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -669,7 +668,7 @@
 				1B533668249C73A900D9C622 /* AudioToolbox.framework */,
 				1B533666249C739E00D9C622 /* Accelerate.framework */,
 				3FBCBC2722C233B20010AED0 /* MapKit.framework */,
-				8115822F6360572B245BD86D /* Pods_iDonate.framework */,
+				9AE6F74D3217072890CA8DCB /* Pods_i2_Donate.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -684,9 +683,9 @@
 				EA7308AE1F26B52B53FC0D47 /* [CP] Check Pods Manifest.lock */,
 				3FC72DDD22706C40004B2FB3 /* Sources */,
 				3FC72DDE22706C40004B2FB3 /* Frameworks */,
-				3FC72DDF22706C40004B2FB3 /* Resources */,
 				2AB7F27DF89BF27B801EB096 /* [CP] Embed Pods Frameworks */,
 				4B22A31D6254439AEEC4F965 /* [CP] Copy Pods Resources */,
+				3FC72DDF22706C40004B2FB3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -744,6 +743,7 @@
 				3FBF4ABC228C18350095FCBD /* commercial-script-bt_[allfont.net].ttf in Resources */,
 				3FC72DEF22706C62004B2FB3 /* LaunchScreen.storyboard in Resources */,
 				3FA8666022C34C2A0008D333 /* Snell Roundhand Bold Script.ttf in Resources */,
+				732D18C1255AE9DA0039AD71 /* Assets.xcassets in Resources */,
 				3FC78DB8229FB42B00ED1804 /* iDonate.plist in Resources */,
 				3F05ADB7233DEA3B0088734C /* FamilyData.plist in Resources */,
 				3FBF4AC6228C1F2D0095FCBD /* SF-Compact-Display-Light.otf in Resources */,
@@ -751,7 +751,6 @@
 				3F0D7C0F2289957D00345E4B /* SearchTableViewCell.xib in Resources */,
 				3FADC3C822CE0834004E7395 /* about-2.html in Resources */,
 				3F1F599C22E591BE005F5070 /* PaymentView.xib in Resources */,
-				3FC72DEC22706C62004B2FB3 /* Assets.xcassets in Resources */,
 				3FBF4AC1228C1EAC0095FCBD /* SF-Pro-Display-Regular.otf in Resources */,
 				3FC72DEA22706C41004B2FB3 /* Main.storyboard in Resources */,
 				3FBF4AC5228C1F2D0095FCBD /* SF-Compact-Display-Black.otf in Resources */,
@@ -768,15 +767,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iDonate/Pods-iDonate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-i2~Donate/Pods-i2~Donate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iDonate/Pods-iDonate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-i2~Donate/Pods-i2~Donate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iDonate/Pods-iDonate-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-i2~Donate/Pods-i2~Donate-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B22A31D6254439AEEC4F965 /* [CP] Copy Pods Resources */ = {
@@ -785,15 +784,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iDonate/Pods-iDonate-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-i2~Donate/Pods-i2~Donate-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iDonate/Pods-iDonate-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-i2~Donate/Pods-i2~Donate-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iDonate/Pods-iDonate-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-i2~Donate/Pods-i2~Donate-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA7308AE1F26B52B53FC0D47 /* [CP] Check Pods Manifest.lock */ = {
@@ -811,7 +810,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iDonate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-i2~Donate-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1042,14 +1041,14 @@
 		};
 		3FC72DF422706C62004B2FB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C53C20DB7F85B1BC4C4B57FC /* Pods-iDonate.debug.xcconfig */;
+			baseConfigurationReference = 9464C26A0937DF0E9AB9C8C4 /* Pods-i2~Donate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = iDonate/iDonate.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = A3C8934K5J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1065,7 +1064,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.i2-donate.i2-donate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "iDonate/iDonate-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1074,14 +1073,14 @@
 		};
 		3FC72DF522706C62004B2FB3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC9306ADCBC0B425CD136E10 /* Pods-iDonate.release.xcconfig */;
+			baseConfigurationReference = 32190EED7EE93AE85F2ED8E6 /* Pods-i2~Donate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = iDonate/iDonate.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Distribution: i-Apps LLC (A3C8934K5J)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = A3C8934K5J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1097,7 +1096,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.i2-donate.i2-donate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "i2-Donate-Distribution - Oct 05";
-				SWIFT_OBJC_BRIDGING_HEADER = "iDonate/iDonate-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
